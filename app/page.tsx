@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import NavbarComp from "./components/Navbar";
 import SeeOffers from "./components/see-offers";
 import HeroSection from "./components/hero-section";
 import Latest from "./components/latest";
@@ -14,7 +14,7 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <NavbarComp />
       <SeeOffers />
       <HeroSection />
       <Latest />
