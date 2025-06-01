@@ -35,11 +35,11 @@ const experience = () => {
               Apple store app
             </h2>
             <h2 className="font-Sf-semibold text-[20px] tracking-wide max-w-[19rem]">
-              Let them know it's on the way.
+              Let them know it&apos;s on the way.
             </h2>
             <p className="text-[15px] max-w-[15rem]">
-              Send a digital gift message that's easy to schedule, fun to give
-              and fun to get.
+              Send a digital gift message that&apos;s easy to schedule, fun to
+              give and fun to get.
             </p>
           </div>
           <Image
@@ -85,7 +85,7 @@ const experience = () => {
         <div className="max-w-[19rem] min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute top-10 left-8">
             <h2 className="font-Sf-semibold text-[20px] tracking-wide max-w-[19rem]">
-              We've got you covered.
+              We&apos;ve got you covered.
             </h2>
             <p className="text-[17px] max-w-[15rem]">
               AppleCare+ now comes with unlimited repairs for accidental damage
