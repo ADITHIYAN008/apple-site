@@ -1,4 +1,4 @@
-import NavbarComp from "./components/Navbar";
+import NavbarComp from "./components/NavbarComp";
 import SeeOffers from "./components/see-offers";
 import HeroSection from "./components/hero-section";
 import Latest from "./components/latest";

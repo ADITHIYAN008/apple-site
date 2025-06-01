@@ -44,7 +44,7 @@ const itemVariants = {
   },
 };
 
-const Navbar = () => {
+const NavbarComp = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSubOpen, setIsSubOpen] = useState(false);
   const [submenu, setSubMenu] = useState<number>(0);
@@ -408,4 +408,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarComp;
