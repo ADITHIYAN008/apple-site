@@ -1,6 +1,7 @@
 import React from "react";
 import { FaApple } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
+import Image from "next/image";
 
 const heroSection = () => {
   return (
@@ -14,9 +15,11 @@ const heroSection = () => {
         </h2>
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-4">
-            <img
+            <Image
               src="/apple-site/avatar/needHelp.jpeg"
               className="size-8"
+              width={10}
+              height={10}
               alt="NeedHelpAvatar"
             />
             <div>
@@ -48,7 +51,9 @@ const heroSection = () => {
         </div>
         <div className="mt-15 ml-3 flex items-center overflow-x-scroll gap-5 no-scrollbar pr-5">
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-mac.png"
               alt="mac-icon"
@@ -56,7 +61,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">Mac</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-iphone.png"
               alt="iphone-icon"
@@ -64,7 +71,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">iPhone</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-ipad.png"
               alt="ipad-icon"
@@ -72,7 +81,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">iPad</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-watch.png"
               alt="iwatch-icon"
@@ -80,7 +91,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">Apple Watch</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-airpods.png"
               alt="airpods-icon"
@@ -88,7 +101,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">AirPods</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-airtag.png"
               alt="airtag-icon"
@@ -96,7 +111,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">AirTag</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-tv.png"
               alt="tv-icon"
@@ -104,7 +121,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">Apple TV 4K</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-homepod.png"
               alt="homepod-icon"
@@ -112,7 +131,9 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm">HomePod</div>
           </div>
           <div className="flex flex-col w-22 items-center gap-3">
-            <img
+            <Image
+              width={88}
+              height={88}
               className="min-w-22"
               src="/apple-site/icons/icon-accessories.png"
               alt="accessories-icon"

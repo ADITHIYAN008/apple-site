@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const special = () => {
@@ -19,7 +20,9 @@ const special = () => {
               Buy a new Mac or iPad <br /> with education savings.¹
             </h2>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/special/savings.jpeg"
             alt="store"

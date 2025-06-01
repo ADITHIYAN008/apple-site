@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 
@@ -12,7 +13,7 @@ const accessories = () => {
       </h2>
       <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem]">
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute top-10 left-10">
+          <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide">
               In with the new.
             </h2>
@@ -20,7 +21,8 @@ const accessories = () => {
               The accessories you love. <br /> In a fresh mix of colours.
             </p>
           </div>
-          <img
+          <Image
+            fill
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/accessories/the-new.jpeg"
             alt="new"
@@ -28,7 +30,9 @@ const accessories = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/slicon.jpeg"
               alt="silicon"
@@ -55,7 +59,9 @@ const accessories = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/magsafe.jpeg"
               alt="magsafe"
@@ -72,14 +78,18 @@ const accessories = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/band.jpeg"
               alt="band"
             />
             <div className="flex justify-center w-full gap-1 mt-3 items-center">
               <div className="w-3 h-3 rounded-full bg-[#4B3469]">
-                <img
+                <Image
+                  width={12}
+                  height={12}
                   src="/apple-site/accessories/band-icon.jpeg"
                   alt="band-icon"
                 />
@@ -98,17 +108,29 @@ const accessories = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/loop.jpeg"
               alt="band"
             />
             <div className="flex justify-center w-full gap-1 mt-3 items-center">
               <div className="w-3 h-3 rounded-full bg-[#4B3469]">
-                <img src="/apple-site/accessories/49-1.jpeg" alt="49-1" />
+                <Image
+                  width={12}
+                  height={12}
+                  src="/apple-site/accessories/49-1.jpeg"
+                  alt="49-1"
+                />
               </div>
               <div className="w-3 h-3 rounded-full bg-[#4B3469]">
-                <img src="/apple-site/accessories/49-2.jpeg" alt="49-2" />
+                <Image
+                  width={12}
+                  height={12}
+                  src="/apple-site/accessories/49-2.jpeg"
+                  alt="49-2"
+                />
               </div>
             </div>
           </div>
@@ -123,7 +145,9 @@ const accessories = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/lake.jpeg"
               alt="silicon"
@@ -147,7 +171,9 @@ const accessories = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/wallet.jpeg"
               alt="wallet"
@@ -171,7 +197,9 @@ const accessories = () => {
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           {" "}
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/c.jpeg"
               alt="c-cable"
@@ -196,7 +224,9 @@ const accessories = () => {
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           {" "}
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/accessories/magic.jpeg"
               alt="magic-keyboard"
@@ -214,7 +244,9 @@ const accessories = () => {
           </div>
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col  gap-10">
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full rounded-3xl"
             src="/apple-site/accessories/explore.jpeg"
             alt="explore"

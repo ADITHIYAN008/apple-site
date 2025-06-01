@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const sound = () => {
@@ -19,7 +20,9 @@ const sound = () => {
               Included with the purchase of selected Apple devices.*
             </p>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/sound/3-months.jpeg"
             alt="3 months"
@@ -27,7 +30,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/pods-4.jpeg"
               alt="pods-4"
@@ -47,7 +52,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/pods-2.jpeg"
               alt="pods pro 2"
@@ -65,7 +72,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/beats-2.jpeg"
               alt="beats 2"
@@ -91,7 +100,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/max.jpeg"
               alt="max"
@@ -118,7 +129,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/homepod.jpeg"
               alt="homepod"
@@ -139,7 +152,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/homepod-mini.jpeg"
               alt="homepod-mini"
@@ -163,7 +178,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/solo-4.jpeg"
               alt="solo-4"
@@ -185,7 +202,9 @@ const sound = () => {
         </div>
         <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 mx-auto mt-10">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-full h-full object-cover rounded-3xl"
               src="/apple-site/sound/pill.jpeg"
               alt="pill"

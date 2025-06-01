@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const experience = () => {
@@ -20,7 +21,9 @@ const experience = () => {
               <span className="text-[12px]">∆</span>
             </h2>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/experience/intelligence.jpeg"
             alt="intelligence"
@@ -39,7 +42,9 @@ const experience = () => {
               and fun to get.
             </p>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/experience/store.jpeg"
             alt="store"
@@ -55,7 +60,9 @@ const experience = () => {
               device.
             </h2>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/experience/tv.jpeg"
             alt="tv"
@@ -67,7 +74,9 @@ const experience = () => {
               Four Apple services. One easy subscription.
             </h2>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/experience/four.jpeg"
             alt="services"
@@ -83,7 +92,9 @@ const experience = () => {
               protection.
             </p>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/experience/care.jpeg"
             alt="apple-care"
@@ -98,7 +109,9 @@ const experience = () => {
               See how one app can control your entire home.
             </h2>
           </div>
-          <img
+          <Image
+            width={200}
+            height={200}
             className="w-full h-full object-cover rounded-3xl"
             src="/apple-site/experience/home.jpeg"
             alt="control"
