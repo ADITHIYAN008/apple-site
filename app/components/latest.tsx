@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const latest = (props: Props) => {
+const latest = () => {
   return (
     <div className="pl-5 mt-15">
       <h2 className="text-[25px] tracking-wide font-semibold mb-1">

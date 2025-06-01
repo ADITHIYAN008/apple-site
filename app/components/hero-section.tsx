@@ -2,9 +2,7 @@ import React from "react";
 import { FaApple } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 
-type Props = {};
-
-const heroSection = (props: Props) => {
+const heroSection = () => {
   return (
     <div className="pl-5 mt-15">
       <div>

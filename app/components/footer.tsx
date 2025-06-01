@@ -5,12 +5,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-import { FaAngleRight, FaApple } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
 import { LuChevronRight } from "react-icons/lu";
 
-type Props = {};
-
-const footer = (props: Props) => {
+const footer = () => {
   return (
     <div className="px-5 mt-3 mb-8">
       <div className="w-full h-[1px] bg-black/20"></div>

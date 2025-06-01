@@ -1,10 +1,7 @@
 import React from "react";
-import { FaAngleRight, FaChevronRight } from "react-icons/fa";
 import { LuCirclePlus } from "react-icons/lu";
 
-type Props = {};
-
-const seeOffers = (props: Props) => {
+const seeOffers = () => {
   return (
     <div className="bg-secondary py-5 text-sm w-full">
       <div className="mx-auto tracking-wide text-center max-w-[85%]">

@@ -1,9 +1,7 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 
-type Props = {};
-
-const help = (props: Props) => {
+const help = () => {
   return (
     <div className="pl-5 mt-5">
       <h2 className="text-[25px] tracking-wide font-semibold mb-1">

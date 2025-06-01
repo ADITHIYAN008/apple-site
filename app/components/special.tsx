@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const special = (props: Props) => {
+const special = () => {
   return (
     <div className="pl-5 mt-5 mb-6">
       <h2 className="text-[25px] tracking-wide font-semibold mb-1 max-w-[90%]">

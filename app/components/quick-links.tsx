@@ -1,9 +1,7 @@
 import React from "react";
 import { CgArrowTopRight } from "react-icons/cg";
 
-type Props = {};
-
-const quickLinks = (props: Props) => {
+const quickLinks = () => {
   return (
     <div className="pl-5 mt-5 mb-2">
       <h2 className="text-[21px] tracking-wide font-semibold mb-1">

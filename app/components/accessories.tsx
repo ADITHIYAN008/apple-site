@@ -1,9 +1,7 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 
-type Props = {};
-
-const accessories = (props: Props) => {
+const accessories = () => {
   return (
     <div className="pl-5 mt-5 mb-6">
       <h2 className="text-[25px] tracking-wide font-semibold mb-1">

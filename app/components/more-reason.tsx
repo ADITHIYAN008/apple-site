@@ -4,9 +4,7 @@ import { FaApple } from "react-icons/fa";
 import { FaRegFaceSmileBeam } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 
-type Props = {};
-
-const moreReason = (props: Props) => {
+const moreReason = () => {
   return (
     <div className="pl-5 mt-5 mb-6">
       <h2 className="text-[25px] tracking-wide font-semibold max-w-[90%] mb-1">
