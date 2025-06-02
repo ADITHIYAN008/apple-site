@@ -642,4 +642,47 @@ const SUB_MENU_LIST = [
   },
 ];
 
-export { SUB_MENU_LIST };
+const NAV_MENU_LIST = [
+  {
+    title: "Store",
+    link: "/mac",
+  },
+  {
+    title: "Mac",
+    link: "/mac",
+  },
+  {
+    title: "iPad",
+    link: "/mac",
+  },
+  {
+    title: "iPhone",
+    link: "/mac",
+  },
+  {
+    title: "Watch",
+    link: "/mac",
+  },
+  {
+    title: "AirPods",
+    link: "/mac",
+  },
+  {
+    title: "TV & Home",
+    link: "/mac",
+  },
+  {
+    title: "Entertainment",
+    link: "/mac",
+  },
+  {
+    title: "Accessories",
+    link: "/mac",
+  },
+  {
+    title: "Support",
+    link: "/mac",
+  },
+];
+
+export { SUB_MENU_LIST, NAV_MENU_LIST };

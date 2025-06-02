@@ -5,19 +5,19 @@ import { FaPlay } from "react-icons/fa";
 const help = () => {
   return (
     <div className="pl-5 mt-5">
-      <h2 className="text-[25px] tracking-wide font-semibold mb-1">
+      <h2 className="text-[25px] tracking-wide font-semibold mb-1 md:text-3xl">
         Help is here.{" "}
         <span className="text-black/50 tracking-wide">
           Whenever and however you need it.
         </span>
       </h2>
-      <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem]">
-        <div className="max-w-[19rem] min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+      <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
+        <div className="max-w-[19rem] md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Apple Specialist
             </h2>
-            <h2 className="font-Sf-semibold text-[20px] tracking-wide max-w-[14rem]">
+            <h2 className="font-Sf-semibold text-[20px] md:text-3xl tracking-wide max-w-[14rem] md:max-w-[90%]">
               Shop one on one with a Speicialist online.
             </h2>
           </div>
@@ -28,12 +28,12 @@ const help = () => {
             alt="specialist"
           />
         </div>
-        <div className="max-w-[19rem] min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="max-w-[19rem] md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Today at apple
             </h2>
-            <h2 className="font-Sf-semibold text-[20px] tracking-wide max-w-[19rem]">
+            <h2 className="font-Sf-semibold text-[20px] tracking-wide  md:text-3xl max-w-[19rem]">
               Explore Apple Intelligence.
             </h2>
             <p className="text-[16px] max-w-[15rem]">
@@ -47,12 +47,12 @@ const help = () => {
             alt="apple-intelligence"
           />
         </div>
-        <div className="max-w-[19rem] min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="max-w-[19rem] md:min-w-[24rem] md:min-h-[30rem] min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Today at apple
             </h2>
-            <h2 className="font-Sf-semibold text-[20px] tracking-wide max-w-[19rem]">
+            <h2 className="font-Sf-semibold text-[20px] md:text-3xl tracking-wide max-w-[19rem]">
               Join free sessions at your Apple Store.
             </h2>
             <p className="text-[17px] max-w-[15rem]">
@@ -67,12 +67,12 @@ const help = () => {
             alt="free-sessions"
           />
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-white/50">
               Business
             </h2>
-            <h2 className="font-Sf-semibold text-[19px] max-w-[13rem] text-white">
+            <h2 className="font-Sf-semibold text-[19px] md:text-3xl md:max-w-[90%] max-w-[13rem] text-white">
               From enterprise to small busniess, we&rsquo;ll work with you.¹
             </h2>
           </div>
@@ -83,12 +83,12 @@ const help = () => {
             alt="emi"
           />
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/50">
               Personal Setup
             </h2>
-            <h2 className="font-Sf-semibold text-[20px] max-w-[15rem] ">
+            <h2 className="font-Sf-semibold text-[20px] md:text-3xl md:max-w-[90%] max-w-[15rem] ">
               Set up your new device with help from a Specialist.
             </h2>
             <p className="text-[16px] max-w-[15rem]">
@@ -103,18 +103,18 @@ const help = () => {
             alt="emi"
           />
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/50">
               Watch and learn
             </h2>
-            <h2 className="font-Sf-semibold text-[19px] max-w-[13rem] text-black">
+            <h2 className="font-Sf-semibold text-[19px] max-w-[13rem] md:max-w-[90%] md:text-3xl text-black">
               Need support? Our teams are here for you.
             </h2>
           </div>
           <Image
             fill
-            className="w-full h-[85%] z-20 object-cover rounded-tr-3xl rounded-tl-3xl"
+            className="w-full h-[85%] z-20 object-cover rounded-tr-3xl rounded-b-3xl rounded-tl-3xl"
             src="/apple-site/help/learn.jpeg"
             alt="emi"
           />

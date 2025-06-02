@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 import React from "react";
 import { FaApple } from "react-icons/fa";
 import { LuChevronRight } from "react-icons/lu";
@@ -17,8 +18,8 @@ const footer = () => {
         <LuChevronRight className="text-black/60" />
         <h2 className="text-[13px] text-black/60">App Store online</h2>
       </div>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             Shop and Lean
@@ -36,8 +37,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             Apple Wallet
@@ -47,8 +48,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             Account
@@ -62,8 +63,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             Entertainment
@@ -81,8 +82,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             Apple Store
@@ -102,8 +103,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             For Business
@@ -113,8 +114,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             For Education
@@ -126,8 +127,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             For Healthcare
@@ -138,8 +139,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             Apple Values
@@ -152,8 +153,8 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
-      <Accordion className="ml-1" type="single" collapsible>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <Accordion className="ml-1 lg:hidden" type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-black/70 text-[12px]">
             About Apple
@@ -169,9 +170,374 @@ const footer = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-[1px] bg-black/20"></div>
+      <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
+      <div className="flex mt-6 mb-10 gap-15">
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 mb-3">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              Shop and Learn
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Store
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Mac
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                iPad
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                iPhone
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Watch
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                AirPods
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                TV & Home
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                AirTag
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Accessories
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Gift Cards
+              </Link>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-2">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              Apple Wallet
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Wallet
+              </Link>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 mb-3">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              Account
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Manage Your Apple Account
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Store Account
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                iCloud.com
+              </Link>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-2">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              Entertainment
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple One
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple TV+
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Music
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Arcade
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Podcasts
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Books
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Store
+              </Link>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              Apple Store
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Find a Store
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Genius Bar
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Today at Apple
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Summer Camp
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Ways to Buy
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Trade In
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Recycling Programme
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Find you Order - Apple
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Shopping Help
+              </Link>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 mb-3">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              For Business
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple and Business
+              </Link>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-2 mb-3">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              For Education
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple and Education
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Shop for Education
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Shop for University
+              </Link>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-2">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              For Healthcare
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple in Healthcare
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Health on Apple Watch
+              </Link>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 mb-3">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              Apple Values
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Accessiblity
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Environment
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Privacy
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Supply Chain
+              </Link>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-2">
+            <h2 className="text-[13px] font-Sf-semibold tracking-wide">
+              About Apple
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Newsroom
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Apple Leadership
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Career Opportunities
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Investors
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Ethics & Compliance
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Events
+              </Link>
+              <Link
+                className="text-[13px] text-black/50 tracking-wide"
+                href="#"
+              >
+                Contact Apple
+              </Link>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div className="mt-4">
-        <p className="text-[13px] tracking-wide mb-3 pl-1 pr-4 text-black/50">
+        <p className="text-[13px] tracking-wide mb-4 pl-1 pr-4 text-black/50 lg:mb-4">
           More ways to shop:{" "}
           <a href="#" className="text-blue-500 underline">
             Find an Apple Store
@@ -182,15 +548,23 @@ const footer = () => {
           </a>{" "}
           near you. Or call 000800 040 1966.
         </p>
-        <p className="text-[13px] pl-1 pr-4 tracking-wide text-black/50 mb-3">
+        <div className="w-full h-[1px] bg-black/20"></div>
+        <p className="text-[13px] pl-1 pr-4 tracking-wide lg:hidden text-black/50 mb-3">
           India
         </p>
-        <p className="text-[13px] pl-1 tracking-wide pr-4 text-black/50 mb-2">
-          Copyright &copy; 2025 Apple Inc. All rights reserved.
-        </p>
-        <p className="text-[13px] pl-1 pr-4 tracking-wide text-black/70">
-          Privacy Policy | Terms of Use | Sales Policy | Legal | <br /> Site Map
-        </p>
+        <div className="flex justify-between items-center mt-4">
+          <div className="flex">
+            <p className="text-[13px] pl-1 tracking-wide pr-4 text-black/50 mb-2">
+              Copyright &copy; 2025 Apple Inc. All rights reserved.
+            </p>
+            <p className="text-[13px] pl-1 pr-4 tracking-wide text-black/70">
+              Privacy Policy | Terms of Use | Sales Policy | Legal | Site Map
+            </p>
+          </div>
+          <p className="text-[13px] pl-1 pr-4 tracking-wide text-black mb-3">
+            India
+          </p>
+        </div>
       </div>
     </div>
   );

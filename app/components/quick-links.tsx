@@ -4,7 +4,7 @@ import { CgArrowTopRight } from "react-icons/cg";
 const quickLinks = () => {
   return (
     <div className="pl-5 mt-5 mb-2">
-      <h2 className="text-[21px] tracking-wide font-semibold mb-1">
+      <h2 className="text-[21px] tracking-wide font-semibold mb-1 md:text-3xl">
         Quick Links
       </h2>
       <div className="flex gap-2 pr-5 overflow-x-scroll items-center no-scrollbar mt-7">

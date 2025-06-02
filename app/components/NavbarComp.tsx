@@ -10,7 +10,7 @@ import Link from "next/link";
 import { GoSearch } from "react-icons/go";
 import { PiBookmarkSimple, PiGearFine } from "react-icons/pi";
 import { FaRegCircleUser } from "react-icons/fa6";
-import { SUB_MENU_LIST } from "@/constants/data";
+import { SUB_MENU_LIST, NAV_MENU_LIST } from "@/constants/data";
 
 const sidebarVariants = {
   open: (height = 1000) => ({
@@ -73,7 +73,18 @@ const NavbarComp = () => {
     <div className="h-16 p-5 relative">
       <div className="flex justify-between items-center">
         <FaApple className="size-5.5" />
-        <div className="flex flex-row gap-7 items-center">
+        <div className="flex flex-row gap-14 items-center">
+          <ul className="flex gap-8">
+            {NAV_MENU_LIST.map((item, idx) => (
+              <Link
+                className="text-sm text-black/70"
+                key={idx}
+                href={item.link}
+              >
+                {item.title}
+              </Link>
+            ))}
+          </ul>
           <HiOutlineSearch
             onClick={() => setIsSearchOpen(true)}
             className="size-5 text-black/70"
@@ -84,7 +95,7 @@ const NavbarComp = () => {
           />
           <HiOutlineMenuAlt4
             onClick={() => setIsMenuOpen(true)}
-            className="size-5 text-black/70"
+            className="size-5 lg:hidden text-black/70"
           />
         </div>
       </div>

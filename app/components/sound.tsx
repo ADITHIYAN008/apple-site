@@ -4,16 +4,16 @@ import React from "react";
 const sound = () => {
   return (
     <div className="pl-5 mt-5 mb-6">
-      <h2 className="text-[25px] tracking-wide font-semibold mb-1">
+      <h2 className="text-[25px] tracking-wide font-semibold mb-1 md:text-3xl">
         Loud and clear.{" "}
         <span className="text-black/50 tracking-wide">
           Unparalled choices for rich, high-quality sound.
         </span>
       </h2>
-      <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem]">
-        <div className="max-w-[19rem] min-w-[19rem]  h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+      <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
+        <div className="max-w-[19rem] md:min-w-[23rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute top-10 left-8">
-            <h2 className="font-Sf-semibold text-[22px] max-w-[12rem] tracking-wide ">
+            <h2 className="font-Sf-semibold text-[22px] max-w-[12rem] md:text-3xl tracking-wide md:max-w-[90%]">
               Get 3 months of Apple Music free.
             </h2>
             <p className="text-[17px] tracking-wide max-w-[15rem] mt-1">
@@ -28,8 +28,8 @@ const sound = () => {
             alt="3 months"
           />
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
@@ -50,8 +50,8 @@ const sound = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
@@ -70,8 +70,8 @@ const sound = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
@@ -98,8 +98,8 @@ const sound = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
@@ -127,8 +127,8 @@ const sound = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
@@ -150,8 +150,8 @@ const sound = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
@@ -176,8 +176,8 @@ const sound = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
@@ -200,8 +200,8 @@ const sound = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
-          <div className="size-50 mx-auto mt-10">
+        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+          <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
               height={200}
