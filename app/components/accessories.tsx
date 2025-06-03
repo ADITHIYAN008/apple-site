@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa";
 
 const accessories = () => {
   return (
-    <div className="pl-5 mt-5 mb-6">
+    <div className="pl-5 xl:ml-[10rem] xl:mt-10 mt-5 mb-6">
       <h2 className="text-[25px] tracking-wide font-semibold mb-1 md:text-3xl">
         Accessories.{" "}
         <span className="text-black/50 tracking-wide">
@@ -12,7 +12,7 @@ const accessories = () => {
         </span>
       </h2>
       <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               In with the new.
@@ -28,7 +28,7 @@ const accessories = () => {
             alt="new"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
@@ -57,7 +57,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
@@ -76,7 +76,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
@@ -106,7 +106,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
@@ -143,7 +143,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
@@ -169,7 +169,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
               width={200}
@@ -194,7 +194,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           {" "}
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
@@ -221,7 +221,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col gap-10">
           {" "}
           <div className="size-50 md:size-56 mx-auto mt-10">
             <Image
@@ -243,7 +243,7 @@ const accessories = () => {
             </h2>
           </div>
         </div>
-        <div className="min-w-[19rem] md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col  gap-10">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all flex flex-col  gap-10">
           <Image
             width={200}
             height={200}

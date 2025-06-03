@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 
 const help = () => {
   return (
-    <div className="pl-5 mt-5">
+    <div className="pl-5 xl:ml-[10rem] mt-5 xl:mt-10">
       <h2 className="text-[25px] tracking-wide font-semibold mb-1 md:text-3xl">
         Help is here.{" "}
         <span className="text-black/50 tracking-wide">
@@ -12,7 +12,7 @@ const help = () => {
         </span>
       </h2>
       <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
-        <div className="max-w-[19rem] md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="max-w-[19rem] cursor-pointer md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Apple Specialist
@@ -28,7 +28,7 @@ const help = () => {
             alt="specialist"
           />
         </div>
-        <div className="max-w-[19rem] md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="max-w-[19rem] cursor-pointer md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Today at apple
@@ -47,7 +47,7 @@ const help = () => {
             alt="apple-intelligence"
           />
         </div>
-        <div className="max-w-[19rem] md:min-w-[24rem] md:min-h-[30rem] min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="max-w-[19rem] cursor-pointer md:min-w-[24rem] md:min-h-[30rem] min-w-[19rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Today at apple
@@ -67,7 +67,7 @@ const help = () => {
             alt="free-sessions"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-white/50">
               Business
@@ -83,7 +83,7 @@ const help = () => {
             alt="emi"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/50">
               Personal Setup
@@ -103,7 +103,7 @@ const help = () => {
             alt="emi"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/50">
               Watch and learn

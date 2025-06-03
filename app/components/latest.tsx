@@ -3,7 +3,7 @@ import React from "react";
 
 const latest = () => {
   return (
-    <div className="pl-5 mt-15">
+    <div className="pl-5 xl:ml-[10rem] mt-15">
       <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1">
         The latest.{" "}
         <span className="text-black/50 tracking-wide">
@@ -11,7 +11,7 @@ const latest = () => {
         </span>
       </h2>
       <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               MacBook Air
@@ -28,7 +28,7 @@ const latest = () => {
             alt="macbook air"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl text-white md:text-3xl tracking-wide">
               iPhone 16 Pro
@@ -45,7 +45,7 @@ const latest = () => {
             alt="iphone16pro-icon"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               iPad Air
@@ -62,7 +62,7 @@ const latest = () => {
             alt="ipad air"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10 max-w-[85%]">
             <h2 className="font-Sf-semibold text-xl md:text-3xl">
               Apple watch Pride Edition Sport Band
@@ -79,7 +79,7 @@ const latest = () => {
             alt="watch"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               Apple watch Series 10
@@ -96,7 +96,7 @@ const latest = () => {
             alt="watch"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-10">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Special Offers
@@ -113,7 +113,7 @@ const latest = () => {
             alt="emi"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               iPhone 16e
@@ -130,7 +130,7 @@ const latest = () => {
             alt="iphone16e"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               iPad
@@ -147,7 +147,7 @@ const latest = () => {
             alt="macbook air"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               Mac Studio
@@ -164,7 +164,7 @@ const latest = () => {
             alt="macbook air"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl text-white md:text-3xl tracking-wide">
               iPhone 16
@@ -181,7 +181,7 @@ const latest = () => {
             alt="iphone16"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl text-white">
               Apple Watch Ultra 2
@@ -198,7 +198,7 @@ const latest = () => {
             alt="macbook air"
           />
         </div>
-        <div className="min-w-[19rem] md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-6 left-10">
             <h2 className="text-[12px] tracking-wide font-Sf-semibold text-black/40">
               Apple Watch Straps

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { LuCirclePlus } from "react-icons/lu";
 
@@ -8,9 +9,12 @@ const seeOffers = () => {
         <h2>
           Get up to 12 months of No Cost EMI§ plus up to ₹8000.00 instant
           cashback§§ on selected products with eligible cards.{" "}
-          <span className="mt-1 items-center  gap-1  text-blue-500">
+          <Link
+            href="/mac"
+            className="mt-1 items-center  gap-1  text-blue-500 cursor-pointer hover:underline"
+          >
             See offers <LuCirclePlus className="inline-block" />
-          </span>
+          </Link>
         </h2>
       </div>
     </div>

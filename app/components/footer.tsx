@@ -11,7 +11,7 @@ import { LuChevronRight } from "react-icons/lu";
 
 const footer = () => {
   return (
-    <div className="px-5 mt-3 mb-8">
+    <div className="px-5  max-w-[1100px] lg2:mx-auto mt-3 mb-8">
       <div className="w-full h-[1px] bg-black/20"></div>
       <div className="flex items-center  mt-4 mb-4">
         <FaApple className="text-black/80" />
@@ -171,7 +171,7 @@ const footer = () => {
         </AccordionItem>
       </Accordion>
       <div className="w-full lg:hidden h-[1px] bg-black/20"></div>
-      <div className="flex mt-6 mb-10 gap-15">
+      <div className=" mt-6 hidden lg:flex mb-10 gap-15">
         <div className="flex flex-col gap-2">
           <div className="flex flex-col gap-2 mb-3">
             <h2 className="text-[13px] font-Sf-semibold tracking-wide">
@@ -179,61 +179,61 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Store
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Mac
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 iPad
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 iPhone
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Watch
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 AirPods
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 TV & Home
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 AirTag
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Accessories
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Gift Cards
@@ -246,7 +246,7 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Wallet
@@ -261,19 +261,19 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Manage Your Apple Account
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Store Account
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 iCloud.com
@@ -286,43 +286,43 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple One
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple TV+
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Music
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Arcade
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Podcasts
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Books
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Store
@@ -337,55 +337,55 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Find a Store
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Genius Bar
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Today at Apple
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Summer Camp
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Ways to Buy
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Trade In
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Recycling Programme
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Find you Order - Apple
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Shopping Help
@@ -400,7 +400,7 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple and Business
@@ -413,19 +413,19 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple and Education
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Shop for Education
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Shop for University
@@ -438,13 +438,13 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple in Healthcare
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Health on Apple Watch
@@ -459,25 +459,25 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Accessiblity
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Environment
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Privacy
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Supply Chain
@@ -490,43 +490,43 @@ const footer = () => {
             </h2>
             <ul className="flex flex-col gap-2">
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Newsroom
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Apple Leadership
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Career Opportunities
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Investors
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Ethics & Compliance
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Events
               </Link>
               <Link
-                className="text-[13px] text-black/50 tracking-wide"
+                className="text-[13px] hover:underline text-black/50 tracking-wide"
                 href="#"
               >
                 Contact Apple
@@ -539,11 +539,11 @@ const footer = () => {
       <div className="mt-4">
         <p className="text-[13px] tracking-wide mb-4 pl-1 pr-4 text-black/50 lg:mb-4">
           More ways to shop:{" "}
-          <a href="#" className="text-blue-500 underline">
+          <a href="#" className="text-blue-500 underline cursor-pointer">
             Find an Apple Store
           </a>{" "}
           or{" "}
-          <a href="#" className="text-blue-500 underline">
+          <a href="#" className="text-blue-500 underline cursor-pointer">
             other retailer
           </a>{" "}
           near you. Or call 000800 040 1966.

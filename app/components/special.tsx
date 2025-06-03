@@ -3,7 +3,7 @@ import React from "react";
 
 const special = () => {
   return (
-    <div className="pl-5 mt-5 mb-6">
+    <div className="pl-5 xl:ml-[10rem] mt-5 mb-6">
       <h2 className="text-[25px] tracking-wide font-semibold mb-1 md:text-3xl max-w-[90%]">
         Special stores.{" "}
         <span className="text-black/50 tracking-wide">
@@ -11,7 +11,7 @@ const special = () => {
         </span>
       </h2>
       <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
-        <div className="max-w-[19rem] md:min-w-[23rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
+        <div className="max-w-[19rem] cursor-pointer md:min-w-[23rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute top-8 left-8">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Education

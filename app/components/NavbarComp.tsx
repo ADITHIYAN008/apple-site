@@ -70,32 +70,30 @@ const NavbarComp = () => {
   }, [isSearchOpen, isBagOpen, isMenuOpen]);
 
   return (
-    <div className="h-16 p-5 relative">
+    <div className="h-16 max-w-[1100px] mx-auto p-5 relative">
       <div className="flex justify-between items-center">
         <FaApple className="size-5.5" />
-        <div className="flex flex-row gap-14 items-center">
-          <ul className="flex gap-8">
+        <div className="flex flex-row gap-12 items-center ">
+          <ul className="gap-9 lg2:gap-11 hidden lg:flex">
             {NAV_MENU_LIST.map((item, idx) => (
-              <Link
-                className="text-sm text-black/70"
-                key={idx}
-                href={item.link}
-              >
+              <h2 className="text-sm cursor-pointer text-black/70" key={idx}>
                 {item.title}
-              </Link>
+              </h2>
             ))}
           </ul>
           <HiOutlineSearch
             onClick={() => setIsSearchOpen(true)}
-            className="size-5 text-black/70"
+            className="size-5 cursor-pointer lg:hidden text-black/70"
           />
+          <HiOutlineSearch className="size-5 text-black/70 hidden lg:block cursor-pointer" />
           <BsBag
             onClick={() => setIsBagOpen(true)}
-            className="size-4 text-black/70"
+            className="size-4  cursor-pointer lg:hidden text-black/70"
           />
+          <BsBag className="size-4 cursor-pointer hidden lg:block  text-black/70" />
           <HiOutlineMenuAlt4
             onClick={() => setIsMenuOpen(true)}
-            className="size-5 lg:hidden text-black/70"
+            className="size-5 cursor-pointer lg:hidden text-black/70"
           />
         </div>
       </div>

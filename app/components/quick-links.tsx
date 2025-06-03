@@ -4,36 +4,38 @@ import { CgArrowTopRight } from "react-icons/cg";
 const quickLinks = () => {
   return (
     <div className="pl-5 mt-5 mb-2">
-      <h2 className="text-[21px] tracking-wide font-semibold mb-1 md:text-3xl">
-        Quick Links
-      </h2>
-      <div className="flex gap-2 pr-5 overflow-x-scroll items-center no-scrollbar mt-7">
-        <a
-          className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[7.5rem] hover:bg-[#272729] hover:text-white hover:underline"
-          href="#"
-        >
-          Find a Store <CgArrowTopRight />
-        </a>
-        <a
-          className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[8rem] hover:bg-[#272729] hover:text-white hover:underline"
-          href="#"
-        >
-          Order Status <CgArrowTopRight />
-        </a>
-        <a
-          className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[9rem] hover:bg-[#272729] hover:text-white hover:underline"
-          href="#"
-        >
-          Shopping Help <CgArrowTopRight />
-        </a>
-        <a
-          className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[7.5rem] hover:bg-[#272729] hover:text-white hover:underline"
-          href="#"
-        >
-          Your Saves <CgArrowTopRight />
-        </a>
+      <div className="xl:ml-[10rem]">
+        <h2 className="text-[21px] tracking-wide font-semibold mb-1 md:text-3xl">
+          Quick Links
+        </h2>
+        <div className="flex gap-2 pr-5 overflow-x-scroll items-center no-scrollbar mt-7">
+          <a
+            className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[7.5rem] hover:bg-[#272729] hover:text-white hover:underline"
+            href="#"
+          >
+            Find a Store <CgArrowTopRight />
+          </a>
+          <a
+            className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[8rem] hover:bg-[#272729] hover:text-white hover:underline"
+            href="#"
+          >
+            Order Status <CgArrowTopRight />
+          </a>
+          <a
+            className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[9rem] hover:bg-[#272729] hover:text-white hover:underline"
+            href="#"
+          >
+            Shopping Help <CgArrowTopRight />
+          </a>
+          <a
+            className="flex items-center gap-0.5 border px-4 py-2 text-sm rounded-3xl min-w-[7.5rem] hover:bg-[#272729] hover:text-white hover:underline"
+            href="#"
+          >
+            Your Saves <CgArrowTopRight />
+          </a>
+        </div>
       </div>
-      <div className="mt-12 flex flex-col gap-2">
+      <div className="mt-12 max-w-[1100px] lg2:mx-auto flex flex-col gap-2">
         <p className="text-[13px] pl-1 pr-4 text-black/50">
           {
             "∆ Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language set to Chinese (Simplified), English (Australia, Canada, India, Ireland, New Zealand, Singapore, South Africa, UK or US), French, German, Italian, Japanese, Korean, Portuguese (Brazil) or Spanish, as part of an iOS 18, iPadOS 18 and macOS Sequoia software update, with more languages coming over the course of the year, including Vietnamese. Some features may not be available in all regions or languages."
