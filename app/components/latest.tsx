@@ -12,7 +12,7 @@ const latest = () => {
       </h2>
       <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               MacBook Air
             </h2>
@@ -29,7 +29,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl text-white md:text-3xl tracking-wide">
               iPhone 16 Pro
             </h2>
@@ -46,7 +46,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               iPad Air
             </h2>
@@ -63,7 +63,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10 max-w-[85%]">
+          <div className="absolute z-40 top-10 left-10 max-w-[85%]">
             <h2 className="font-Sf-semibold text-xl md:text-3xl">
               Apple watch Pride Edition Sport Band
             </h2>
@@ -80,7 +80,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               Apple watch Series 10
             </h2>
@@ -97,7 +97,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-6 left-10">
+          <div className="absolute z-40 top-6 left-10">
             <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-black/40">
               Special Offers
             </h2>
@@ -114,7 +114,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               iPhone 16e
             </h2>
@@ -131,7 +131,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               iPad
             </h2>
@@ -148,7 +148,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
               Mac Studio
             </h2>
@@ -165,7 +165,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl text-white md:text-3xl tracking-wide">
               iPhone 16
             </h2>
@@ -182,7 +182,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-10 left-10">
+          <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl text-white">
               Apple Watch Ultra 2
             </h2>
@@ -199,7 +199,7 @@ const latest = () => {
           />
         </div>
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
-          <div className="absolute z-50 top-6 left-10">
+          <div className="absolute z-40 top-6 left-10">
             <h2 className="text-[12px] tracking-wide font-Sf-semibold text-black/40">
               Apple Watch Straps
             </h2>

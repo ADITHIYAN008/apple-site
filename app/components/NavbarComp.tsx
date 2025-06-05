@@ -4,13 +4,17 @@ import { BsArrowRight, BsBag, BsBoxSeam } from "react-icons/bs";
 import { FaApple } from "react-icons/fa";
 import { HiOutlineMenuAlt4, HiOutlineSearch } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion, number } from "framer-motion";
 import { RiArrowLeftWideFill } from "react-icons/ri";
 import Link from "next/link";
 import { GoSearch } from "react-icons/go";
 import { PiBookmarkSimple, PiGearFine } from "react-icons/pi";
 import { FaRegCircleUser } from "react-icons/fa6";
-import { SUB_MENU_LIST, NAV_MENU_LIST } from "@/constants/data";
+import {
+  SUB_MENU_LIST,
+  NAV_MENU_LIST,
+  NAV_LIST_CONTENT,
+} from "@/constants/data";
 
 const sidebarVariants = {
   open: (height = 1000) => ({
@@ -54,6 +58,8 @@ const NavbarComp = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSubOpen, setIsSubOpen] = useState(false);
   const [submenu, setSubMenu] = useState<number>(0);
+  const [isHoverIndex, setIsHoverIndex] = useState(0);
+  const [isHover, setIsHover] = useState(true);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isBagOpen, setIsBagOpen] = useState(false);
 
@@ -70,13 +76,131 @@ const NavbarComp = () => {
   }, [isSearchOpen, isBagOpen, isMenuOpen]);
 
   return (
-    <div className="h-16 max-w-[1100px] mx-auto p-5 relative">
-      <div className="flex justify-between items-center">
+    <div className={`h-16 p-5 relative ${isHover ? "bg-white" : ""}`}>
+      <AnimatePresence>
+        {isHover && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="absolute backdrop-blur-sm top-full left-0 w-full z-50"
+          >
+            <div className={`w-full h-screen bg-white/20 `}>
+              <div
+                onMouseLeave={() => setIsHover(false)}
+                className="h-auto pb-[5rem] bg-white text-black"
+              >
+                <div className="max-w-[1100px] mx-auto pt-7">
+                  {NAV_LIST_CONTENT.filter(
+                    (item) => item.id === String(isHoverIndex)
+                  ).map((item, index) => (
+                    <div key={index} className="flex gap-20">
+                      <div>
+                        <h2 className="text-sm text-black/50">
+                          {item.title1.title}
+                        </h2>
+                        <div className="flex mt-5 flex-col gap-2">
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.one}
+                          </h2>
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.two}
+                          </h2>
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.three}
+                          </h2>
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.four}
+                          </h2>
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.five}
+                          </h2>
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.six}
+                          </h2>
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.seven}
+                          </h2>
+                          <h2 className="text-2xl font-semibold cursor-pointer">
+                            {item.title1.eight}
+                          </h2>
+                        </div>
+                      </div>
+                      <div>
+                        <h2 className="text-sm text-black/50">
+                          {item.title2.title}
+                        </h2>
+                        <div className="flex mt-5 flex-col gap-2">
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title2.one}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title2.two}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title2.three}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title2.four}
+                          </h2>
+                        </div>
+                      </div>
+                      <div>
+                        <h2 className="text-sm text-black/50">
+                          {item.title3.title}
+                        </h2>
+                        <div className="flex mt-5 flex-col gap-2">
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.one}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.two}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.three}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.four}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.five}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.six}
+                          </h2>
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.seven}
+                          </h2>{" "}
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.eight}
+                          </h2>{" "}
+                          <h2 className="text-sm font-Sf-semibold cursor-pointer text-black/80">
+                            {item.title3.nine}
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <div className="flex mx-auto max-w-[1100px]  justify-between items-center">
         <FaApple className="size-5.5" />
         <div className="flex flex-row gap-12 items-center ">
           <ul className="gap-9 lg2:gap-11 hidden lg:flex">
             {NAV_MENU_LIST.map((item, idx) => (
-              <h2 className="text-sm cursor-pointer text-black/70" key={idx}>
+              <h2
+                onMouseEnter={() => {
+                  setIsHoverIndex(idx);
+                  setIsHover(true);
+                }}
+                className="text-sm cursor-pointer text-black/70"
+                key={idx}
+              >
                 {item.title}
               </h2>
             ))}
