@@ -46,7 +46,7 @@ const heroSection = () => {
                   Visit an Apple Store
                 </h2>
                 <Link
-                  href="/mac"
+                  href="/retail"
                   className="flex text-sm items-center cursor-pointer hover:underline gap-0.5 text-blue-500"
                 >
                   Find one near you{" "}

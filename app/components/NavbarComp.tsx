@@ -58,8 +58,8 @@ const NavbarComp = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSubOpen, setIsSubOpen] = useState(false);
   const [submenu, setSubMenu] = useState<number>(0);
-  const [isHoverIndex, setIsHoverIndex] = useState(0);
-  const [isHover, setIsHover] = useState(true);
+  const [isHoverIndex, setIsHoverIndex] = useState<number | null>(null);
+  const [isHover, setIsHover] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isBagOpen, setIsBagOpen] = useState(false);
 
@@ -190,7 +190,7 @@ const NavbarComp = () => {
       </AnimatePresence>
       <div className="flex mx-auto max-w-[1100px]  justify-between items-center">
         <FaApple className="size-5.5" />
-        <div className="flex flex-row gap-12 items-center ">
+        <div className="flex flex-row gap-8 items-center ">
           <ul className="gap-9 lg2:gap-11 hidden lg:flex">
             {NAV_MENU_LIST.map((item, idx) => (
               <h2
