@@ -20,8 +20,8 @@ const heroSection = () => {
               <Image
                 src="/apple-site/avatar/needHelp.jpeg"
                 className="size-8"
-                width={10}
-                height={10}
+                width={200}
+                height={200}
                 alt="NeedHelpAvatar"
               />
               <div>
@@ -59,7 +59,10 @@ const heroSection = () => {
           </div>
         </div>
         <div className="mt-15 ml-3 flex items-center overflow-x-scroll xl:gap-15 gap-5 md:gap-13 no-scrollbar pr-5">
-          <div className="flex flex-col w-22 items-center cursor-pointer gap-3">
+          <Link
+            href="/shop/buy-mac"
+            className="flex flex-col w-22 items-center cursor-pointer gap-3"
+          >
             <Image
               width={88}
               height={88}
@@ -68,7 +71,7 @@ const heroSection = () => {
               alt="mac-icon"
             />
             <div className="font-Sf-semibold text-sm hover:underline">Mac</div>
-          </div>
+          </Link>
           <div className="flex flex-col w-22 items-center cursor-pointer gap-3">
             <Image
               width={88}
