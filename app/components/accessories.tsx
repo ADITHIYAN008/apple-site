@@ -4,14 +4,14 @@ import { FaPlus } from "react-icons/fa";
 
 const accessories = () => {
   return (
-    <div className="pl-5 xl:ml-[10rem] xl:mt-10 mt-5 mb-6">
-      <h2 className="text-[25px] tracking-wide font-semibold mb-1 md:text-3xl">
+    <div className="pl-5 xl:pl-0 xl:mt-10 mt-5 mb-6">
+      <h2 className="text-[25px] xl:ml-[11.5rem]  tracking-wide font-semibold mb-1 md:text-3xl">
         Accessories.{" "}
         <span className="text-black/50 tracking-wide">
           Essentials that pair perfectly with your favourite devices.
         </span>
       </h2>
-      <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
+      <div className="flex xl:pl-[11.5rem] gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
         <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-50 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">

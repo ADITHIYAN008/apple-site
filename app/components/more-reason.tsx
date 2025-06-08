@@ -6,14 +6,14 @@ import { MdComputer } from "react-icons/md";
 
 const moreReason = () => {
   return (
-    <div className="pl-5 xl:ml-[10rem] pr-5 xl:mt-10 mt-5 mb-6">
-      <h2 className="text-[25px] tracking-wide font-semibold max-w-[90%] md:text-3xl mb-1">
+    <div className="pl-5 xl:pl-0  pr-5 xl:mt-10 mt-5 mb-6">
+      <h2 className="text-[25px] tracking-wide font-semibold max-w-[90%] xl:ml-[11.5rem] md:text-3xl mb-1">
         The Apple Store difference.{" "}
         <span className="text-black/50 tracking-wide">
           Even more reasons to shop with us.
         </span>
       </h2>
-      <div className="flex gap-5 overflow-x-scroll items-center no-scrollbar md:min-h-[19rem] min-h-[17rem]">
+      <div className="flex xl:pl-[11.5rem] gap-5 overflow-x-scroll items-center no-scrollbar md:min-h-[19rem] min-h-[17rem]">
         <div className="max-w-[19rem] cursor-pointer md:min-w-[23rem] min-w-[19rem] h-[15rem] md:min-h-[17rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all pl-8 pt-10">
           <BsCreditCard className="size-13 text-green-700" />
           <h2 className="font-Sf-semibold text-[20px] tracking-wide mt-2 md:text-2xl">

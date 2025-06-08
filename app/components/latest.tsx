@@ -3,14 +3,14 @@ import React from "react";
 
 const latest = () => {
   return (
-    <div className="pl-5 xl:ml-[10rem] mt-15">
-      <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1">
+    <div className="pl-5 xl:pl-0 mt-15">
+      <h2 className="text-[25px] md:text-3xl tracking-wide xl:ml-[11.5rem] font-semibold mb-1">
         The latest.{" "}
         <span className="text-black/50 tracking-wide">
           Take a look at what&rsquo;s new right now.
         </span>
       </h2>
-      <div className="flex gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
+      <div className="flex xl:pl-[11.5rem] gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[32rem] md:min-h-[34rem]">
         <div className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[28rem] md:h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
           <div className="absolute z-40 top-10 left-10">
             <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">

@@ -3,7 +3,7 @@ import React from "react";
 
 const macExperience = () => {
   return (
-    <div className="flex pl-5 gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[33rem] md:min-h-[34rem]">
+    <div className="flex pl-5 gap-5 pr-5 overflow-x-scroll items-center xl:pl-[11rem] no-scrollbar min-h-[33rem] md:min-h-[34rem]">
       <div className="max-w-[19rem] cursor-pointer md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
         <div className="absolute z-50 top-6 left-8 text-white max-w-[80%]">
           <h2 className="uppercase text-[12px] font-Sf-semibold tracking-wide text-white">

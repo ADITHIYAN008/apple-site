@@ -57,8 +57,8 @@ const page = () => {
     <div>
       <NavbarComp />
       <SeeOffers />
-      <div className="px-5 pt-14">
-        <h2 className="font-Sf-semibold text-3xl mb-5">Shop Mac</h2>
+      <div className="px-5 pt-14 lg:items-center md:flex lg:ml-[10rem] md:gap-7 xl:gap-[55rem] lg:gap-18">
+        <h2 className="font-Sf-semibold text-3xl mb-5 lg:text-5xl">Shop Mac</h2>
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-4">
             <Image
@@ -102,7 +102,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <div className="px-5 mt-13 flex overflow-scroll text-nowrap gap-12 text-lg no-scrollbar">
+      <div className="px-5 mt-13 flex overflow-scroll text-nowrap lg:ml-[10rem] gap-12 text-lg no-scrollbar">
         {navigators.map((item, index) => (
           <a
             className={`${
@@ -116,15 +116,15 @@ const page = () => {
           </a>
         ))}
       </div>
-      <div id="allModels" className="xl:ml-[10rem] mt-15">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5">
+      <div id="allModels" className=" mt-15">
+        <h2 className="text-[25px] md:text-3xl tracking-wide xl:ml-[10rem] font-semibold mb-1 pl-5">
           All models.{" "}
           <span className="text-black/50 tracking-wide">Take your pick.</span>
         </h2>
         <Models />
       </div>
-      <div id="waysToSave" className="xl:ml-[10rem] mt-5">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[90%]">
+      <div id="waysToSave" className=" mt-5">
+        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[90%]">
           Ways to save.{" "}
           <span className="text-black/50 tracking-wide">
             Find what works for you.
@@ -132,8 +132,8 @@ const page = () => {
         </h2>
         <WaysToSave />
       </div>
-      <div id="shoppingGuides" className="xl:ml-[10rem] mt-5">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
+      <div id="shoppingGuides" className=" mt-5">
+        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
           Shopping guides.{" "}
           <span className="text-black/50 tracking-wide">
             Can&rsquo;t decide? Start here.
@@ -141,8 +141,8 @@ const page = () => {
         </h2>
         <Guide />
       </div>
-      <div id="appleStoreDifference" className="xl:ml-[10rem] mt-5">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
+      <div id="appleStoreDifference" className=" mt-5">
+        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
           The Apple Store difference.{" "}
           <span className="text-black/50 tracking-wide">
             Even more reasons to shop with us.
@@ -150,15 +150,15 @@ const page = () => {
         </h2>
         <StoreDifference />
       </div>
-      <div id="accessories" className="xl:ml-[10rem] mt-5">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
+      <div id="accessories" className=" mt-5">
+        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
           Accessories.{" "}
           <span className="text-black/50 tracking-wide">Made for Mac.</span>
         </h2>
         <Accessories />
       </div>
-      <div id="macForBusiness" className="xl:ml-[10rem] mt-5">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
+      <div id="macForBusiness" className=" mt-5">
+        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
           Mac for Business.{" "}
           <span className="text-black/50 tracking-wide">
             Work smarter. Go faster. Last longer.
@@ -166,8 +166,8 @@ const page = () => {
         </h2>
         <ForBusiness />
       </div>
-      <div id="macExperience" className="xl:ml-[10rem] mt-5">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
+      <div id="macExperience" className=" mt-5">
+        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
           The Mac Experience.{" "}
           <span className="text-black/50 tracking-wide">
             Designed to connect with everything Apple.
@@ -175,8 +175,8 @@ const page = () => {
         </h2>
         <MacExperience />
       </div>
-      <div id="setupAndSupport" className="xl:ml-[10rem] mt-5">
-        <h2 className="text-[25px] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
+      <div id="setupAndSupport" className=" mt-5">
+        <h2 className="text-[25px] md:text-3xl tracking-wide xl:ml-[10rem] font-semibold mb-1 pl-5 max-w-[95%]">
           Setup and support.{" "}
           <span className="text-black/50 tracking-wide">
             Our Specialist are here to help.
@@ -185,7 +185,7 @@ const page = () => {
         <SetupAndSupport />
       </div>
       <div className="pl-5 mt-5 mb-2">
-        <div className="xl:ml-[10rem]">
+        <div>
           <div className="mt-12 max-w-[1100px] lg2:mx-auto flex flex-col gap-2">
             <p className="text-[13px] pl-1 pr-4 text-black/50">
               "° Apple TV+ offer available to new and qualified returning

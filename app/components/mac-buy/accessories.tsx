@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa";
 
 const accessories = () => {
   return (
-    <div className="flex pl-5 gap-5 pr-5 overflow-x-scroll items-center no-scrollbar min-h-[33rem] md:min-h-[34rem]">
+    <div className="flex pl-5 gap-5 pr-5 overflow-x-scroll items-center xl:pl-[11rem] no-scrollbar min-h-[33rem] md:min-h-[34rem]">
       <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
         <div className="absolute z-50 top-10 left-10">
           <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl max-w-[60%]">
