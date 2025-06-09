@@ -1008,4 +1008,146 @@ const NAV_LIST_CONTENT = [
   },
 ];
 
-export { SUB_MENU_LIST, NAV_MENU_LIST, NAV_LIST_CONTENT };
+const MODELS_DATA = [
+  {
+    isNew: false,
+    title: "MacBook Air",
+    isTwoSizes: true,
+    size1: "13”",
+    size2: "15”",
+    description:
+      "From ₹7908.00/mo. with instant cashback§§ and No Cost EMI§ or ₹99900.00‡",
+    description2:
+      "From ₹9992.00/mo. with instant cashback§§ and No Cost EMI§ or ₹124900.00‡",
+    link: "",
+    link2: "",
+    images: [
+      "/apple-site/buy/mac/all-models/mac-air/main.png",
+      "/apple-site/buy/mac/all-models/mac-air/top.jpeg",
+      "/apple-site/buy/mac/all-models/mac-air/side.png",
+      "/apple-site/buy/mac/all-models/mac-air/closed-side.png",
+      "/apple-site/buy/mac/all-models/mac-air/closed-front.png",
+      "/apple-site/buy/mac/all-models/mac-air/closed-top.png",
+      "/apple-site/buy/mac/all-models/mac-air/final-pic.png",
+    ],
+    images2: [
+      "/apple-site/buy/mac/all-models/mac-air/main.png",
+      "/apple-site/buy/mac/all-models/mac-air/top.jpeg",
+      "/apple-site/buy/mac/all-models/mac-air/side.png",
+      "/apple-site/buy/mac/all-models/mac-air/closed-side.png",
+      "/apple-site/buy/mac/all-models/mac-air/closed-front.png",
+      "/apple-site/buy/mac/all-models/mac-air/closed-top.png",
+      "/apple-site/buy/mac/all-models/mac-air/final-pic-1.png",
+    ],
+    availColors: "Available in 4 colours",
+    colors: ["#C8D8E0", "#2F3642", "#F0E4D3", "#E3E4E5"],
+    specOne: {
+      spec1: {
+        icon: `<Image
+          width={200}
+          height={200}
+          className="mx-auto size-7"
+          src="/apple-site/buy/mac/all-models/thin.png"
+          alt="thin"
+        />`,
+        desc: "Lightweight and less than two centimeters thin, so you can take MacBook Air anywhere you go",
+      },
+      spec2: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <div className="flex items-center bg-black text-white max-w-[2rem] text-[10px] px-1 py-2 rounded-md">
+                                    <BsApple size={9} />
+                                    M4
+                                  </div>
+                                </div>`,
+        desc: "The powerful 10-core CPU and up to 10-core GPU of the Apple M4 chip keep things running smoothly",
+      },
+      spec3: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <IoBatteryFull size={30} />
+                                </div>`,
+        desc: "Up to 18 hours of battery life, so you can leave your charger at home¹",
+      },
+      spec4: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <IoResizeSharp size={30} />
+                                </div>`,
+        desc: "The 13.6-inch Liquid Retina display supports 1 billion colours²",
+      },
+      spec5: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <BsCameraVideo size={30} />
+                                </div>`,
+        desc: "The 12MP Center Stage camera keeps you centred in the frame during video calls, even as you move around",
+      },
+      spec6: {
+        icon: ` <Image
+                                  width={200}
+                                  height={200}
+                                  className="mx-auto size-7"
+                                  src="/apple-site/buy/mac/all-models/apple-intelligence.png"
+                                  alt="thin"
+                                />`,
+        desc: "Built for Apple Intelligence. Personal, private, powerful.³",
+      },
+    },
+    specTwo: {
+      spec1: {
+        icon: `<Image
+          width={200}
+          height={200}
+          className="mx-auto size-7"
+          src="/apple-site/buy/mac/all-models/thin.png"
+          alt="thin"
+        />`,
+        desc: "Lightweight and less than two centimeters thin, so you can take MacBook Air anywhere you go",
+      },
+      spec2: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <div className="flex items-center bg-black text-white max-w-[2rem] text-[10px] px-1 py-2 rounded-md">
+                                    <BsApple size={9} />
+                                    M4
+                                  </div>
+                                </div>`,
+        desc: "The powerful 10-core CPU and up to 10-core GPU of the Apple M4 chip keep things running smoothly",
+      },
+      spec3: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <IoBatteryFull size={30} />
+                                </div>`,
+        desc: "Up to 18 hours of battery life, so you can leave your charger at home¹",
+      },
+      spec4: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <IoResizeSharp size={30} />
+                                </div>`,
+        desc: "The 13.6-inch Liquid Retina display supports 1 billion colours²",
+      },
+      spec5: {
+        icon: `<div className="w-[4rem] flex justify-center">
+                                  <BsCameraVideo size={30} />
+                                </div>`,
+        desc: "The 12MP Center Stage camera keeps you centred in the frame during video calls, even as you move around",
+      },
+      spec6: {
+        icon: ` <Image
+                                  width={200}
+                                  height={200}
+                                  className="mx-auto size-7"
+                                  src="/apple-site/buy/mac/all-models/apple-intelligence.png"
+                                  alt="thin"
+                                />`,
+        desc: "Built for Apple Intelligence. Personal, private, powerful.³",
+      },
+    },
+    explore: "MacBook Air",
+  },
+  // macbookPro: {},
+  // iMac: {},
+  // macMini: {},
+  // macStudio: {},
+  // studioDisplay: {},
+  // macPro: {},
+  // proDisplayXDR: {},
+];
+
+export { SUB_MENU_LIST, NAV_MENU_LIST, NAV_LIST_CONTENT, MODELS_DATA };
