@@ -4,6 +4,12 @@ import Link from "next/link";
 import React, { useState } from "react";
 import MacbookAir from "./details-container/macbook-air";
 import MacbookPro from "./details-container/macbook-pro";
+import Imac from "./details-container/imac";
+import MacMini from "./details-container/mac-mini";
+import MacStudio from "./details-container/mac-studio";
+import StudioDisplay from "./details-container/studio-display";
+import MacPro from "./details-container/mac-pro";
+import Xdr from "./details-container/xdr";
 
 const models = () => {
   const [hoverIndex, setHoverIndex] = useState<number | undefined>();
@@ -20,17 +26,17 @@ const models = () => {
       case 1:
         return <MacbookPro setContainerClicked={setContainerClicked} />;
       case 2:
-        return "2";
+        return <Imac setContainerClicked={setContainerClicked} />;
       case 3:
-        return "3";
+        return <MacMini setContainerClicked={setContainerClicked} />;
       case 4:
-        return "4";
+        return <MacStudio setContainerClicked={setContainerClicked} />;
       case 5:
-        return "5";
+        return <StudioDisplay setContainerClicked={setContainerClicked} />;
       case 6:
-        return "6";
+        return <MacPro setContainerClicked={setContainerClicked} />;
       case 7:
-        return "7";
+        return <Xdr setContainerClicked={setContainerClicked} />;
       default:
         return true;
     }

@@ -13,7 +13,7 @@ const page = () => {
       <NavbarComp />
 
       <div className="md:flex md:items-center bg-white max-w-[1100px] mx-auto md:px-5 md:justify-between">
-        <h2 className="text-xl font-Sf-semibold">Find a store</h2>
+        <h2 className="text-xl font-Sf-semibold text-center">Find a store</h2>
         <div className="border  flex focus-within:border-2 focus-within:border-blue-600 items-center md:min-w-[20rem] px-2 py-3 rounded-2xl w-auto mx-10 md:mt-0 mt-5">
           <IoIosSearch className="size-5 mr-2 ml-2" />
           <input

@@ -1,41 +1,35 @@
-import React, { SetStateAction, useState } from "react";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  IoBatteryFull,
-  IoCardOutline,
-  IoClose,
-  IoResizeSharp,
-} from "react-icons/io5";
+import React, { useState } from "react";
+import { BsApple, BsTruck } from "react-icons/bs";
+import { IoCardOutline, IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
-import { BsApple, BsCameraVideo, BsMenuAppFill, BsTruck } from "react-icons/bs";
+import { SlScreenDesktop } from "react-icons/sl";
 import { IoIosFlash } from "react-icons/io";
 
-type ContainerClickedType = {
+type ClickedContainerType = {
   status: boolean;
   index: number;
 };
 
-const MacbookProImages = [
-  "/apple-site/buy/mac/all-models/macbook-pro/main.png",
-  "/apple-site/buy/mac/all-models/macbook-pro/top.png",
-  "/apple-site/buy/mac/all-models/macbook-pro/side.png",
-  "/apple-site/buy/mac/all-models/macbook-pro/closed-side.png",
-  "/apple-site/buy/mac/all-models/macbook-pro/closed-front.png",
-  "/apple-site/buy/mac/all-models/macbook-pro/closed-top.png",
-  "/apple-site/buy/mac/all-models/macbook-pro/final-pic-1.png",
-  "/apple-site/buy/mac/all-models/macbook-pro/final-pic.png",
+const MacStudioImages = [
+  "/apple-site/buy/mac/all-models/mac-studio/main.png",
+  "/apple-site/buy/mac/all-models/mac-studio/back.png",
+  "/apple-site/buy/mac/all-models/mac-studio/top.png",
+  "/apple-site/buy/mac/all-models/mac-studio/bottom.png",
+  "/apple-site/buy/mac/all-models/mac-studio/setup.png",
+  "/apple-site/buy/mac/all-models/mac-studio/final.png",
+  "/apple-site/buy/mac/all-models/mac-studio/final-1.jpeg",
 ];
-
-const macbookPro = ({
+const macStudio = ({
   setContainerClicked,
 }: {
   setContainerClicked: React.Dispatch<
-    React.SetStateAction<ContainerClickedType>
+    React.SetStateAction<ClickedContainerType>
   >;
 }) => {
-  const [macAirSize, setMacAirSize] = useState(14);
+  const [chip, setChip] = useState("m4");
   const [currImg, setCurrImg] = useState(0);
   return (
     <div className="fixed z-[90] left-0 top-0 h-screen w-full bg-black/30 overflow-y-auto">
@@ -48,39 +42,41 @@ const macbookPro = ({
             <IoClose className="size-6 text-black/60" />
           </div>
           <div className="mt-10 flex flex-col justify-center">
-            <h2 className="text-[12px] uppercase mt-6 text-amber-700 text-center"></h2>
+            <h2 className="text-[12px] uppercase mt-6 text-amber-700 text-center">
+              New
+            </h2>
             <h2 className="mt-1 gap-1 flex items-center justify-center font-Sf-semibold text-2xl">
-              MacBook Pro
+              Mac Studio
             </h2>
             <div className="flex mt-5 justify-center gap-4">
               <h2
                 onClick={() => {
-                  setMacAirSize(14);
+                  setChip("m4");
                   setCurrImg(0);
                 }}
                 className={`px-6 py-2 rounded-full ${
-                  macAirSize === 14 ? "bg-black/10" : ""
+                  chip === "m4" ? "bg-black/10" : ""
                 }`}
               >
-                14”
+                M4 Max chip
               </h2>
               <h2
                 onClick={() => {
-                  setMacAirSize(16);
+                  setChip("m3");
                   setCurrImg(0);
                 }}
                 className={` px-6 py-2 rounded-full ${
-                  macAirSize === 16 ? "bg-black/10" : ""
+                  chip === "m3" ? "bg-black/10" : ""
                 }`}
               >
-                16”
+                M3 Ultra chip
               </h2>
             </div>
-            {macAirSize === 14 ? (
+            {chip === "m4" ? (
               <div className="flex flex-col justify-center">
                 <h2 className="max-w-[20rem] mx-auto mt-6 text-sm text-center mb-5">
-                  From ₹13492.00/mo. with instant cashback§§ and No Cost EMI
-                  Footnote §or ₹169900.00‡
+                  From ₹17492.00/mo. with instant cashback§§ and No Cost EMI§ or
+                  ₹214900.00‡
                 </h2>
                 <Link
                   className="bg-blue-500 text-center mx-auto max-w-[4rem] rounded-full cursor-pointer text-sm text-white px-4 py-2"
@@ -89,182 +85,9 @@ const macbookPro = ({
                   Buy
                 </Link>
                 <div className="mx-auto">
-                  <div className="mt-5 overflow-hidden w-[250px] h-[200px] mx-auto relative">
-                    <motion.div
-                      className="flex"
-                      animate={{ x: -currImg * 250 }}
-                      transition={{
-                        type: "spring",
-                        stiffness: 300,
-                        damping: 30,
-                      }}
-                    >
-                      {MacbookProImages.map((src, index) => (
-                        <Image
-                          key={index}
-                          src={currImg === 6 ? MacbookProImages[6] : src}
-                          width={250}
-                          height={200}
-                          alt="macbook air"
-                          className="shrink-0"
-                        />
-                      ))}
-                    </motion.div>
-                  </div>
-                  <div className="flex justify-center mt-15 gap-4">
-                    <div
-                      onClick={() => setCurrImg(0)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 0 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
-                    <div
-                      onClick={() => setCurrImg(1)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 1 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
-                    <div
-                      onClick={() => setCurrImg(2)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 2 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
-                    <div
-                      onClick={() => setCurrImg(3)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 3 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
-                    <div
-                      onClick={() => setCurrImg(4)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 4 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
-                    <div
-                      onClick={() => setCurrImg(5)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 5 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
-                    <div
-                      onClick={() => setCurrImg(6)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 6 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
-                  </div>
-                  <div className="mt-10 text-center flex flex-col justify-center">
-                    <h2 className="text-sm text-black/50">
-                      Available in 2 colours
-                    </h2>
-                    <div className="flex gap-1 mt-3 items-center justify-center">
-                      <div className="w-3 h-3 bg-[#2F3642] rounded-full"></div>
-                      <div className="w-3 h-3 bg-[#E3E4E5] rounded-full"></div>
-                    </div>
-                  </div>
-                  <div className="px-5 mt-10">
-                    <div className="flex items-center gap-2">
-                      <div className="w-[4rem] flex justify-center">
-                        <div className="flex items-center bg-black text-white max-w-[2rem] text-[10px] px-1 py-2 rounded-md">
-                          <BsApple size={9} />
-                          M4
-                        </div>
-                      </div>
-
-                      <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Supercharged by M4 Max, with an up to 16-core CPU, an up
-                        to 40-core GPU, and a 16-core Neural Engine
-                      </h2>
-                    </div>
-                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
-                    <div className="flex items-center gap-2">
-                      <div className="w-[4rem] flex justify-center">
-                        <IoBatteryFull size={30} />
-                      </div>
-
-                      <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Go all day and night with up to 24 hours of battery
-                        life¹
-                      </h2>
-                    </div>
-                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
-                    <div className="flex items-center gap-2">
-                      <Image
-                        width={200}
-                        height={200}
-                        className="mx-auto size-7"
-                        src="/apple-site/buy/mac/all-models/apple-intelligence.png"
-                        alt="thin"
-                      />
-                      <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Built for Apple Intelligence. Personal, private,
-                        powerful.²
-                      </h2>
-                    </div>
-                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
-                    <div className="flex items-center gap-2">
-                      <div className="w-[4rem] flex justify-center">
-                        <IoResizeSharp size={30} />
-                      </div>
-
-                      <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        The 14.2-inch Liquid Retina XDR display features 1,600
-                        nits peak brightness and up to 1,000 nits sustained
-                        brightness, 1,000,000:1 contrast. With nano‑texture
-                        option.³
-                      </h2>
-                    </div>
-                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
-                    <div className="flex items-center gap-2">
-                      <div className="w-[4rem] flex justify-center">
-                        <BsCameraVideo size={30} />
-                      </div>
-
-                      <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Stay perfectly framed and sound great with a 12MP Center
-                        Stage camera, studio-quality mics and six speakers with
-                        Spatial Audio
-                      </h2>
-                    </div>
-                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
-                    <div className="flex items-center gap-2">
-                      <div className="w-[4rem] flex justify-center">
-                        <IoIosFlash size={30} />
-                      </div>
-
-                      <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Connect it all with a MagSafe charging port, SDXC card
-                        slot, HDMI port, headphone jack, and three Thunderbolt 4
-                        or Thunderbolt 5 ports
-                      </h2>
-                    </div>
-                  </div>
-                  <Link
-                    className="flex items-center pl-5 mt-8 mb-8 text-blue-500 hover:underline cursor-pointer text-lg"
-                    href=""
-                  >
-                    Explore MacBook Pro further <ChevronRight size={18} />
-                  </Link>
-                </div>
-              </div>
-            ) : (
-              <div className="flex flex-col justify-center">
-                <h2 className="max-w-[20rem] mx-auto mt-6 text-sm text-center mb-5">
-                  From ₹20158.00/mo. with instant cashback§§ and No Cost EMI
-                  Footnote §or ₹249900.‡
-                </h2>
-                <Link
-                  className="bg-blue-500 text-center mx-auto max-w-[4rem] cursor-pointer rounded-full text-sm text-white px-4 py-2"
-                  href=" "
-                >
-                  Buy
-                </Link>
-                <div className="mx-auto">
                   <div className="mt-5 overflow-hidden w-[300px] h-[200px] mx-auto relative">
                     <motion.div
-                      className="flex scale-110"
+                      className="flex"
                       animate={{ x: -currImg * 300 }}
                       transition={{
                         type: "spring",
@@ -272,10 +95,10 @@ const macbookPro = ({
                         damping: 30,
                       }}
                     >
-                      {MacbookProImages.map((src, index) => (
+                      {MacStudioImages.map((src, index) => (
                         <Image
                           key={index}
-                          src={currImg === 6 ? MacbookProImages[7] : src}
+                          src={currImg === 5 ? MacStudioImages[5] : src}
                           width={300}
                           height={200}
                           alt="macbook air"
@@ -321,22 +144,8 @@ const macbookPro = ({
                         currImg === 5 ? "bg-black" : "bg-black/30"
                       }`}
                     ></div>
-                    <div
-                      onClick={() => setCurrImg(6)}
-                      className={`w-2 h-2  rounded-full ${
-                        currImg === 6 ? "bg-black" : "bg-black/30"
-                      }`}
-                    ></div>
                   </div>
-                  <div className="mt-10 text-center flex flex-col justify-center">
-                    <h2 className="text-sm text-black/50">
-                      Available in 2 colours
-                    </h2>
-                    <div className="flex gap-1 mt-3 items-center justify-center">
-                      <div className="w-3 h-3 bg-[#2F3642] rounded-full"></div>
-                      <div className="w-3 h-3 bg-[#E3E4E5] rounded-full"></div>
-                    </div>
-                  </div>
+
                   <div className="px-5 mt-10">
                     <div className="flex items-center gap-2">
                       <div className="w-[4rem] flex justify-center">
@@ -347,19 +156,60 @@ const macbookPro = ({
                       </div>
 
                       <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Supercharged by M4 Pro or M4 Max, MacBook Pro empowers
-                        you to take on the most demanding projects
+                        Supercharged by M4 Max, with an up to 16‑core CPU, an up
+                        to 40‑core GPU and a 16‑core Neural Engine
+                      </h2>
+                    </div>
+                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
+                    <div className="flex items-center gap-2">
+                      <Image
+                        width={200}
+                        height={200}
+                        className="mx-auto size-7"
+                        src="/apple-site/buy/mac/all-models/microchip.png"
+                        alt="microchip"
+                      />
+                      <h2 className="w-[80%] font-Sf-semibold text-lg">
+                        Configure with up to 128GB unified memory and up to 8TB
+                        storage
                       </h2>
                     </div>
                     <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
                     <div className="flex items-center gap-2">
                       <div className="w-[4rem] flex justify-center">
-                        <IoBatteryFull size={30} />
+                        <IoIosFlash size={30} />
                       </div>
 
                       <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Go all day and night with up to 24 hours of battery
-                        life¹
+                        Features four Thunderbolt 5 ports, two USB‑C ports, two
+                        USB‑A ports, an HDMI port, an SDXC card slot and a
+                        headphone jack
+                      </h2>
+                    </div>
+                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
+                    <div className="flex items-center gap-2">
+                      <Image
+                        width={200}
+                        height={200}
+                        className="mx-auto w-[2rem] h-[1rem] size-7"
+                        src="/apple-site/buy/mac/all-models/design.png"
+                        alt="design"
+                      />
+                      <h2 className="w-[80%] font-Sf-semibold text-lg">
+                        Stunningly compact design fits easily on your desk, and
+                        the thermal system keeps Mac Studio running cool and
+                        quiet
+                      </h2>
+                    </div>
+                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-[4rem] flex justify-center">
+                        <SlScreenDesktop size={30} />
+                      </div>
+
+                      <h2 className="w-[80%] font-Sf-semibold text-lg">
+                        Pairs perfectly with Studio Display and supports up to
+                        five displays
                       </h2>
                     </div>
                     <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
@@ -373,32 +223,118 @@ const macbookPro = ({
                       />
                       <h2 className="w-[80%] font-Sf-semibold text-lg">
                         Built for Apple Intelligence. Personal, private,
-                        powerful.²
+                        powerful.¹
+                      </h2>
+                    </div>
+                  </div>
+                  <Link
+                    className="flex items-center pl-5 mt-8 mb-8 text-blue-500 hover:underline cursor-pointer text-lg"
+                    href=""
+                  >
+                    Explore Mac Studio further <ChevronRight size={18} />
+                  </Link>
+                </div>
+              </div>
+            ) : (
+              <div className="flex flex-col justify-center">
+                <h2 className="max-w-[20rem] mx-auto mt-6 text-sm text-center mb-5">
+                  From ₹35408.00/mo. with instant cashback§§ and No Cost EMI§ or
+                  ₹429900.00‡
+                </h2>
+                <Link
+                  className="bg-blue-500 text-center mx-auto max-w-[4rem] rounded-full cursor-pointer text-sm text-white px-4 py-2"
+                  href=" "
+                >
+                  Buy
+                </Link>
+                <div className="mx-auto">
+                  <div className="mt-5 overflow-hidden w-[300px] h-[200px] mx-auto relative">
+                    <motion.div
+                      className="flex"
+                      animate={{ x: -currImg * 300 }}
+                      transition={{
+                        type: "spring",
+                        stiffness: 300,
+                        damping: 30,
+                      }}
+                    >
+                      {MacStudioImages.map((src, index) => (
+                        <Image
+                          key={index}
+                          src={currImg === 5 ? MacStudioImages[6] : src}
+                          width={300}
+                          height={200}
+                          alt="macbook air"
+                          className="shrink-0"
+                        />
+                      ))}
+                    </motion.div>
+                  </div>
+                  <div className="flex justify-center mt-15 gap-4">
+                    <div
+                      onClick={() => setCurrImg(0)}
+                      className={`w-2 h-2  rounded-full ${
+                        currImg === 0 ? "bg-black" : "bg-black/30"
+                      }`}
+                    ></div>
+                    <div
+                      onClick={() => setCurrImg(1)}
+                      className={`w-2 h-2  rounded-full ${
+                        currImg === 1 ? "bg-black" : "bg-black/30"
+                      }`}
+                    ></div>
+                    <div
+                      onClick={() => setCurrImg(2)}
+                      className={`w-2 h-2  rounded-full ${
+                        currImg === 2 ? "bg-black" : "bg-black/30"
+                      }`}
+                    ></div>
+                    <div
+                      onClick={() => setCurrImg(3)}
+                      className={`w-2 h-2  rounded-full ${
+                        currImg === 3 ? "bg-black" : "bg-black/30"
+                      }`}
+                    ></div>
+                    <div
+                      onClick={() => setCurrImg(4)}
+                      className={`w-2 h-2  rounded-full ${
+                        currImg === 4 ? "bg-black" : "bg-black/30"
+                      }`}
+                    ></div>
+                    <div
+                      onClick={() => setCurrImg(5)}
+                      className={`w-2 h-2  rounded-full ${
+                        currImg === 5 ? "bg-black" : "bg-black/30"
+                      }`}
+                    ></div>
+                  </div>
+
+                  <div className="px-5 mt-10">
+                    <div className="flex items-center gap-2">
+                      <div className="w-[4rem] flex justify-center">
+                        <div className="flex items-center bg-black text-white max-w-[2rem] text-[10px] px-1 py-2 rounded-md">
+                          <BsApple size={9} />
+                          M4
+                        </div>
+                      </div>
+
+                      <h2 className="w-[80%] font-Sf-semibold text-lg">
+                        Supercharged by M3 Ultra, with an up to 32‑core CPU, an
+                        up to 80‑core GPU and a 32‑core Neural Engine
                       </h2>
                     </div>
                     <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
                     <div className="flex items-center gap-2">
-                      <div className="w-[4rem] flex justify-center">
-                        <IoResizeSharp size={30} />
-                      </div>
-
+                      <Image
+                        width={200}
+                        height={200}
+                        className="mx-auto size-7"
+                        src="/apple-site/buy/mac/all-models/microchip.png"
+                        alt="microchip"
+                      />
                       <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        The 16.2-inch Liquid Retina XDR display features 1,600
-                        nits peak brightness and up to 1,000 nits sustained
-                        brightness, 1,000,000:1 contrast. With nano‑texture
-                        option.³
-                      </h2>
-                    </div>
-                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
-                    <div className="flex items-center gap-2">
-                      <div className="w-[4rem] flex justify-center">
-                        <BsCameraVideo size={30} />
-                      </div>
-
-                      <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Stay perfectly framed and sound great with a 12MP Center
-                        Stage camera, studio-quality mics and six speakers with
-                        Spatial Audio
+                        Configure with up to 512GB unified memory and up to 16TB
+                        storage
                       </h2>
                     </div>
                     <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
@@ -408,9 +344,48 @@ const macbookPro = ({
                       </div>
 
                       <h2 className="w-[80%] font-Sf-semibold text-lg">
-                        Connect it all with a MagSafe charging port, SDXC card
-                        slot, HDMI port, headphone jack, and three Thunderbolt 4
-                        or Thunderbolt 5 ports
+                        Features six Thunderbolt 5 ports, two USB-A ports, an
+                        HDMI port, an SDXC card slot and a headphone jack
+                      </h2>
+                    </div>
+                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
+                    <div className="flex items-center gap-2">
+                      <Image
+                        width={200}
+                        height={200}
+                        className="mx-auto w-[2rem] h-[1rem] size-7"
+                        src="/apple-site/buy/mac/all-models/design.png"
+                        alt="design"
+                      />
+                      <h2 className="w-[80%] font-Sf-semibold text-lg">
+                        Stunningly compact design fits easily on your desk, and
+                        the thermal system keeps Mac Studio running cool and
+                        quiet
+                      </h2>
+                    </div>
+                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-[4rem] flex justify-center">
+                        <SlScreenDesktop size={30} />
+                      </div>
+
+                      <h2 className="w-[80%] font-Sf-semibold text-lg">
+                        Pairs perfectly with Studio Display and supports up to
+                        eight displays
+                      </h2>
+                    </div>
+                    <div className="w-full h-[1px] bg-black/20 mt-4 mb-4"></div>
+                    <div className="flex items-center gap-2">
+                      <Image
+                        width={200}
+                        height={200}
+                        className="mx-auto size-7"
+                        src="/apple-site/buy/mac/all-models/apple-intelligence.png"
+                        alt="thin"
+                      />
+                      <h2 className="w-[80%] font-Sf-semibold text-lg">
+                        Built for Apple Intelligence. Personal, private,
+                        powerful.¹
                       </h2>
                     </div>
                   </div>
@@ -418,7 +393,7 @@ const macbookPro = ({
                     className="flex items-center pl-5 mt-8 mb-8 text-blue-500 hover:underline cursor-pointer text-lg"
                     href=""
                   >
-                    Explore MacBook Pro further <ChevronRight size={18} />
+                    Explore Mac Studio further <ChevronRight size={18} />
                   </Link>
                 </div>
               </div>
@@ -497,4 +472,4 @@ const macbookPro = ({
   );
 };
 
-export default macbookPro;
+export default macStudio;
