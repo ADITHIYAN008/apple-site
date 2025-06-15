@@ -72,7 +72,10 @@ const heroSection = () => {
             />
             <div className="font-Sf-semibold text-sm hover:underline">Mac</div>
           </Link>
-          <div className="flex flex-col w-22 items-center cursor-pointer gap-3">
+          <Link
+            href="/shop/buy-iphone"
+            className="flex flex-col w-22 items-center cursor-pointer gap-3"
+          >
             <Image
               width={88}
               height={88}
@@ -83,7 +86,7 @@ const heroSection = () => {
             <div className="font-Sf-semibold text-sm hover:underline">
               iPhone
             </div>
-          </div>
+          </Link>
           <div className="flex flex-col w-22 items-center cursor-pointer gap-3">
             <Image
               width={88}
