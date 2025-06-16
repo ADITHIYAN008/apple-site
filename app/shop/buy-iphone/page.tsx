@@ -127,7 +127,7 @@ const page = () => {
         <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[90%]">
           Ways to save.{" "}
           <span className="text-black/50 tracking-wide">
-            Find what works for you.
+            Right here at Apple.
           </span>
         </h2>
         <WaysToSave />

@@ -126,17 +126,17 @@ const models = () => {
             height={200}
             className="mx-auto scale-115"
             src="/apple-site/buy/iphone/all-models/16-pro.jpeg"
-            alt="macbook air"
+            alt="iphone 16 pro"
           />
         </div>
         <div className="flex gap-1 mt-5 justify-center">
-          <div className="w-3 h-3 bg-[#c8d8e0] rounded-full"></div>
-          <div className="w-3 h-3 bg-[#2f3642] rounded-full"></div>
-          <div className="w-3 h-3 bg-[#f0e4d3] rounded-full"></div>
-          <div className="w-3 h-3 bg-[#e3e4e5] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#C6AD9B] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#C6C0B8] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#F2F1EE] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#4A4A4B] rounded-full"></div>
         </div>
 
-        <h2 className="pl-7 mb-3 mt-3">
+        <h2 className="pl-7 mb-2 mt-3">
           From ₹9825.00/mo. with instant cashback§§ and No Cost EMI§ or
           ₹119900.00‡
         </h2>
@@ -164,33 +164,49 @@ const models = () => {
         className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[29rem] md:h-[31rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
       >
         <div className="px-7 pt-7">
-          <h2 className="font-Sf-semibold text-xl tracking-wide pt-5 md:text-3xl">
-            MacBook Pro
+          <h2 className="uppercase text-[12px] text-black/40 font-Sf-semibold mb-1">
+            Apple Intelligence
+          </h2>
+          <h2 className="font-Sf-semibold max-w-[70%] text-xl tracking-wide md:text-3xl">
+            iPhone 16 & iPhone 16 Plus
           </h2>
         </div>
-        <div className=" mt-5 overflow-clip">
+        <div className="h-[11rem] mt-4 overflow-clip">
           <Image
             width={200}
             height={200}
-            className="mx-auto scale-125"
-            src="/apple-site/buy/mac/all-models/macbook-pro.jpeg"
-            alt="macbook pro"
+            className="mx-auto scale-115"
+            src="/apple-site/buy/iphone/all-models/16-plus.jpeg"
+            alt="iphone 16 plus"
           />
         </div>
-        <div className="flex gap-1 mt-7 justify-center">
-          <div className="w-3 h-3 bg-[#2f3642] rounded-full"></div>
-          <div className="w-3 h-3 bg-[#c8d8e0] rounded-full"></div>
+        <div className="flex gap-1 mt-5 justify-center">
+          <div className="w-3 h-3 bg-[#A5B5F7] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#B6D7D5] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#F3B2DB] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#FAFAFA] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#4A4E50] rounded-full"></div>
         </div>
 
-        <h2 className="pl-7 mb-3 mt-3">
-          From ₹13492.00/mo. with instant cashback§§ and No Cost EMI§ or
-          ₹169900.00‡
+        <h2 className="pl-7 mb-2 mt-3">
+          From ₹6325.00/mo. with instant cashback§§ and No Cost EMI§ or
+          ₹79900.00‡
         </h2>
         <Link
-          className="bg-blue-500 px-4 font-Sf-semibold text-[12px]  py-2 ml-7 items-end rounded-3xl text-white"
+          className="bg-blue-500 px-4 font-Sf-semibold text-[12px] py-2 ml-7 items-end rounded-3xl text-white"
           href=""
         >
           Buy
+        </Link>
+        <Link
+          className={`absolute z-40 top-2/4 bg-black px-4 py-2 text-white hover:bg-blue-500 transition-all duration-400 ease-in-out left-1/4 xl:left-28 text-lg rounded-3xl ${
+            hoverIndex === 0
+              ? "opacity-100 translate-y-0 pointer-events-auto"
+              : "opacity-0 translate-y-8 pointer-events-none"
+          }`}
+          href=""
+        >
+          Take a closer look
         </Link>
         <Link
           className={`absolute z-40 top-2/4 bg-black px-4 py-2 text-white hover:bg-blue-500 transition-all duration-400 ease-in-out left-1/4 xl:left-28 text-lg rounded-3xl ${
@@ -210,50 +226,30 @@ const models = () => {
         className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[29rem] md:h-[31rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
       >
         <div className="px-7 pt-7">
+          <h2 className="uppercase text-[12px] text-black/40 font-Sf-semibold mb-1">
+            Apple Intelligence
+          </h2>
           <h2 className="font-Sf-semibold text-xl tracking-wide pt-5 md:text-3xl">
-            iMac
+            iPhone 16e
           </h2>
         </div>
-        <div className=" mt-5 overflow-clip">
+        <div className="h-[11rem] mt-4 overflow-clip">
           <Image
             width={200}
             height={200}
             className="mx-auto scale-125"
-            src="/apple-site/buy/mac/all-models/imac.jpeg"
-            alt="imac"
+            src="/apple-site/buy/iphone/all-models/16e.jpeg"
+            alt="iphone 16e"
           />
         </div>
         <div className="flex gap-1 mt-7 justify-center">
-          <div className="w-3 h-3 overflow-clip bg-[#2f3642] rounded-full">
-            <div className="w-1/2 h-full bg-[#547eae]"></div>
-            <div className="w-1/2 h-full bg-[#acbfd8]"></div>
-          </div>
-          <div className="w-3 h-3 bg-[#c8d8e0] overflow-clip rounded-full">
-            <div className="w-1/2 h-full bg-[#827fb2]"></div>
-            <div className="w-1/2 h-full bg-[#b7b1ce]"></div>
-          </div>
-          <div className="w-3 h-3 bg-[#c8d8e0] overflow-clip rounded-full">
-            <div className="w-1/2 h-full bg-[#de5f7d]"></div>
-            <div className="w-1/2 h-full bg-[#f3b5c3]"></div>
-          </div>
-          <div className="w-3 h-3 bg-[#c8d8e0] overflow-clip rounded-full">
-            <div className="w-1/2 h-full bg-[#edd243]"></div>
-            <div className="w-1/2 h-full bg-[#f5e3ad]"></div>
-          </div>
-          <div className="w-3 h-3 bg-[#c8d8e0] overflow-clip rounded-full">
-            <div className="w-1/2 h-full bg-[#f5e3ad]"></div>
-            <div className="w-1/2 h-full bg-[#f6c1a7]"></div>
-          </div>
-          <div className="w-3 h-3 bg-[#c8d8e0] overflow-clip rounded-full">
-            <div className="w-1/2 h-full bg-[#3d945c]"></div>
-            <div className="w-1/2 h-full bg-[#a4c2af]"></div>
-          </div>
-          <div className="w-3 h-3 bg-[#e3e4e5] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#FAFAFA] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#4A4E50] rounded-full"></div>
         </div>
 
         <h2 className="pl-7 mb-3 mt-3">
-          From ₹10658.00/mo. with instant cashback§§ and No Cost EMI§ or
-          ₹134900.00‡
+          From ₹4992.00/mo. with instant cashback§§ and No Cost EMI§ or
+          ₹59900.00‡
         </h2>
         <Link
           className="bg-blue-500 px-4 font-Sf-semibold text-[12px]  py-2 ml-7 items-end rounded-3xl text-white"
@@ -278,27 +274,35 @@ const models = () => {
         onClick={() => setContainerClicked({ status: true, index: 3 })}
         className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[29rem] md:h-[31rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
       >
-        <div className="px-7 pt-7">
-          <h2 className="font-Sf-semibold text-xl tracking-wide pt-5 md:text-3xl">
-            Mac mini
+        <div className="px-7 pt-5">
+          <h2 className="uppercase text-[12px] mt-8 text-black/40 font-Sf-semibold mb-1"></h2>
+          <h2 className="font-Sf-semibold max-w-[70%] text-xl tracking-wide md:text-3xl">
+            iPhone 15 & iPhone 15 Plus
           </h2>
         </div>
-        <div className=" mt-5 overflow-clip">
+        <div className="h-[11rem] mt-4 overflow-clip">
           <Image
             width={200}
             height={200}
-            className="mx-auto scale-125"
-            src="/apple-site/buy/mac/all-models/mac-mini.jpeg"
-            alt="mac-mini"
+            className="mx-auto scale-115"
+            src="/apple-site/buy/iphone/all-models/15-plus.jpeg"
+            alt="iphone 15 plus"
           />
         </div>
+        <div className="flex gap-1 mt-5 justify-center">
+          <div className="w-3 h-3 bg-[#d6dde0] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#edd4d7] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#eee8ca] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#d3ddcf] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#474b4d] rounded-full"></div>
+        </div>
 
-        <h2 className="pl-7 pt-10 mb-3 mt-3">
-          From ₹4742.00/mo. with instant cashback§§ and No Cost EMI§ or
-          ₹59900.00‡
+        <h2 className="pl-7 mb-2 mt-3">
+          From ₹5825.00/mo. with instant cashback§§ and No Cost EMI§ or
+          ₹69900.00‡
         </h2>
         <Link
-          className="bg-blue-500 px-4 font-Sf-semibold text-[12px]  py-2 ml-7 items-end rounded-3xl text-white"
+          className="bg-blue-500 px-4 font-Sf-semibold text-[12px] py-2 ml-7 items-end rounded-3xl text-white"
           href=""
         >
           Buy
@@ -314,174 +318,23 @@ const models = () => {
           Take a closer look
         </Link>
       </div>
-      <div
-        onMouseEnter={() => setHoverIndex(4)}
-        onMouseLeave={() => setHoverIndex(undefined)}
-        onClick={() => setContainerClicked({ status: true, index: 4 })}
-        className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[29rem] md:h-[31rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
+      <Link
+        href=""
+        className="max-w-[19rem] cursor-pointer md:min-w-[24rem] min-w-[19rem] md:min-h-[30rem] h-[28rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
       >
-        <div className="px-7 pt-7">
-          <h2 className="uppercase text-[12px] text-amber-700 font-Sf-semibold mb-1">
-            NEW
-          </h2>
-          <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl">
-            Mac Studio
+        <div className="absolute z-50 top-6 left-8">
+          <h2 className="uppercase mt-5 text-[12px] font-Sf-semibold tracking-wide text-black/40"></h2>
+          <h2 className="font-Sf-semibold text-[20px] md:text-3xl tracking-wide max-w-[20rem] md:max-w-[90%]">
+            Explore all iPhone accessories.
           </h2>
         </div>
-        <div className=" mt-5 overflow-clip">
-          <Image
-            width={200}
-            height={200}
-            className="mx-auto scale-125"
-            src="/apple-site/buy/mac/all-models/mac-studio.jpeg"
-            alt="mac-studio"
-          />
-        </div>
-
-        <h2 className="pl-7 pt-10 mb-3 mt-3">
-          From ₹17492.00/mo. with instant cashback§§ and No Cost EMI§ or
-          ₹214900.00‡
-        </h2>
-        <Link
-          className="bg-blue-500 px-4 font-Sf-semibold text-[12px]  py-2 ml-7 items-end rounded-3xl text-white"
-          href=""
-        >
-          Buy
-        </Link>
-        <Link
-          className={`absolute z-40 top-2/4 bg-black px-4 py-2 text-white hover:bg-blue-500 transition-all duration-400 ease-in-out left-1/4 xl:left-28 text-lg rounded-3xl ${
-            hoverIndex === 4
-              ? "opacity-100 translate-y-0 pointer-events-auto"
-              : "opacity-0 translate-y-8 pointer-events-none"
-          }`}
-          href=""
-        >
-          Take a closer look
-        </Link>
-      </div>
-      <div
-        onMouseEnter={() => setHoverIndex(5)}
-        onMouseLeave={() => setHoverIndex(undefined)}
-        onClick={() => setContainerClicked({ status: true, index: 5 })}
-        className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[29rem] md:h-[31rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
-      >
-        <div className="px-7 pt-7">
-          <h2 className="font-Sf-semibold text-xl tracking-wide pt-5 md:text-3xl">
-            Studio Display
-          </h2>
-        </div>
-        <div className=" mt-5 overflow-clip">
-          <Image
-            width={200}
-            height={200}
-            className="mx-auto scale-125"
-            src="/apple-site/buy/mac/all-models/studio-display.jpeg"
-            alt="studio-display"
-          />
-        </div>
-
-        <h2 className="pl-7 pt-10 mb-3 mt-3">
-          From ₹14507.00/mo. with EMI◊◊, or ₹159900.00‡
-        </h2>
-        <Link
-          className="bg-blue-500 px-4 font-Sf-semibold text-[12px]  py-2 ml-7 items-end rounded-3xl text-white"
-          href=""
-        >
-          Buy
-        </Link>
-        <Link
-          className={`absolute z-40 top-2/4 bg-black px-4 py-2 text-white hover:bg-blue-500 transition-all duration-400 ease-in-out left-1/4 xl:left-28 text-lg rounded-3xl ${
-            hoverIndex === 5
-              ? "opacity-100 translate-y-0 pointer-events-auto"
-              : "opacity-0 translate-y-8 pointer-events-none"
-          }`}
-          href=""
-        >
-          Take a closer look
-        </Link>
-      </div>
-      <div
-        onMouseEnter={() => setHoverIndex(6)}
-        onMouseLeave={() => setHoverIndex(undefined)}
-        onClick={() => setContainerClicked({ status: true, index: 6 })}
-        className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[29rem] md:h-[31rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
-      >
-        <div className="px-7 pt-7">
-          <h2 className="font-Sf-semibold text-xl tracking-wide pt-5 md:text-3xl">
-            Mac Pro
-          </h2>
-        </div>
-        <div className=" mt-5 overflow-clip">
-          <Image
-            width={200}
-            height={200}
-            className="mx-auto scale-125"
-            src="/apple-site/buy/mac/all-models/mac-pro.jpeg"
-            alt="mac-pro"
-          />
-        </div>
-
-        <h2 className="pl-7 pt-10 mb-3 mt-3">
-          From ₹66221.00/mo. with EMI◊◊, or ₹729900.00‡
-        </h2>
-        <Link
-          className="bg-blue-500 px-4 font-Sf-semibold text-[12px]  py-2 ml-7 items-end rounded-3xl text-white"
-          href=""
-        >
-          Buy
-        </Link>
-        <Link
-          className={`absolute z-40 top-2/4 bg-black px-4 py-2 text-white hover:bg-blue-500 transition-all duration-400 ease-in-out left-1/4 xl:left-28 text-lg rounded-3xl ${
-            hoverIndex === 6
-              ? "opacity-100 translate-y-0 pointer-events-auto"
-              : "opacity-0 translate-y-8 pointer-events-none"
-          }`}
-          href=""
-        >
-          Take a closer look
-        </Link>
-      </div>
-      <div
-        onMouseEnter={() => setHoverIndex(7)}
-        onMouseLeave={() => setHoverIndex(undefined)}
-        onClick={() => setContainerClicked({ status: true, index: 7 })}
-        className="min-w-[19rem] cursor-pointer md:min-w-[24rem] h-[29rem] md:h-[31rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all"
-      >
-        <div className="px-7 pt-7">
-          <h2 className="font-Sf-semibold text-xl tracking-wide pt-5 md:text-3xl">
-            Pro Display XDR
-          </h2>
-        </div>
-        <div className=" mt-5 overflow-clip">
-          <Image
-            width={200}
-            height={200}
-            className="mx-auto scale-125"
-            src="/apple-site/buy/mac/all-models/pro-display.jpeg"
-            alt="mac-pro"
-          />
-        </div>
-
-        <h2 className="pl-7 pt-10 mb-3 mt-3">
-          From ₹40818.00/mo. with EMI◊◊, or ₹449900.00‡
-        </h2>
-        <Link
-          className="bg-blue-500 px-4 font-Sf-semibold text-[12px]  py-2 ml-7 items-end rounded-3xl text-white"
-          href=""
-        >
-          Buy
-        </Link>
-        <Link
-          className={`absolute z-40 top-2/4 bg-black px-4 py-2 text-white hover:bg-blue-500 transition-all duration-400 ease-in-out left-1/4 xl:left-28 text-lg rounded-3xl ${
-            hoverIndex === 7
-              ? "opacity-100 translate-y-0 pointer-events-auto"
-              : "opacity-0 translate-y-8 pointer-events-none"
-          }`}
-          href=""
-        >
-          Take a closer look
-        </Link>
-      </div>
+        <Image
+          fill
+          className="w-[70%] h-full object-cover rounded-3xl"
+          src="/apple-site/buy/iphone/all-models/explore-all.jpeg"
+          alt="explore all"
+        />
+      </Link>
     </div>
   );
 };
