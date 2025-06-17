@@ -30,24 +30,20 @@ const navigators = [
     link: "#shoppingGuides",
   },
   {
-    title: "The Apple Store Difference",
-    link: "#appleStoreDifference",
-  },
-  {
     title: "Accessories",
     link: "#accessories",
   },
   {
-    title: "Mac for Business",
-    link: "#macForBusiness",
-  },
-  {
-    title: "The Mac Experience",
-    link: "#macExperience",
+    title: "Environment",
+    link: "#environment",
   },
   {
     title: "Setup and Support",
     link: "#setupAndSupport",
+  },
+  {
+    title: "The iPhone Experience",
+    link: "#iphoneExperience",
   },
 ];
 
@@ -141,6 +137,16 @@ const page = () => {
         </h2>
         <Guide />
       </div>
+      <div id="accessories" className=" mt-5">
+        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
+          Accessories.{" "}
+          <span className="text-black/50 tracking-wide">
+            {" "}
+            Essentials that pair perfectly with your favourite devices.
+          </span>
+        </h2>
+        <Accessories />
+      </div>
       <div id="appleStoreDifference" className=" mt-5">
         <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
           The Apple Store difference.{" "}
@@ -150,13 +156,7 @@ const page = () => {
         </h2>
         <StoreDifference />
       </div>
-      <div id="accessories" className=" mt-5">
-        <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
-          Accessories.{" "}
-          <span className="text-black/50 tracking-wide">Made for Mac.</span>
-        </h2>
-        <Accessories />
-      </div>
+      ˚
       <div id="macForBusiness" className=" mt-5">
         <h2 className="text-[25px] xl:ml-[10rem] md:text-3xl tracking-wide font-semibold mb-1 pl-5 max-w-[95%]">
           Mac for Business.{" "}

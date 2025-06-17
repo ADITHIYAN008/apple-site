@@ -7,14 +7,20 @@ const accessories = () => {
     <div className="flex pl-5 gap-5 pr-5 overflow-x-scroll items-center xl:pl-[11rem] no-scrollbar min-h-[33rem] md:min-h-[34rem]">
       <div className="min-w-[19rem] cursor-pointer md:min-w-[23rem] h-[28rem] md:min-h-[30rem] relative rounded-3xl bg-white hover:scale-102 duration-500 ease-in-out hover:shadow-2xl hover:shadow-black/10 transition-all">
         <div className="absolute z-50 top-10 left-10">
-          <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl max-w-[60%]">
-            Get the most from your Mac.
+          <h2 className="font-Sf-semibold text-xl tracking-wide md:text-3xl max-w-[80%]">
+            Get even more attached to iPhone.
+          </h2>
+          <h2
+            className="text-base tracking-wide md:text-lg lg
+           max-w-[90%]"
+          >
+            Snap on a case, wallet or wireless charger.
           </h2>
         </div>
         <Image
           fill
           className="w-full h-full object-cover rounded-3xl"
-          src="/apple-site/buy/mac/accessories/get-the-most.jpeg"
+          src="/apple-site/buy/iphone/accessories/get-more.jpeg"
           alt="get-the-most"
         />
       </div>
@@ -24,20 +30,26 @@ const accessories = () => {
             width={200}
             height={200}
             className="w-full h-full object-cover rounded-3xl"
-            src="/apple-site/buy/mac/accessories/magic-keyboard.jpeg"
-            alt="magic-keyboard"
+            src="/apple-site/buy/iphone/accessories/16pro-silicone.jpeg"
+            alt="16 pro silicone"
           />
           <div className="flex justify-center w-full gap-1 mt-3 items-center">
-            <div className="w-3 h-3 rounded-full bg-[#f5f5f5]"></div>
-            <div className="w-3 h-3 rounded-full bg-black"></div>
+            <div className="w-3 h-3 rounded-full bg-[#7787C1]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#FB8AC1]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#D3E5D7]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#FE7E6D]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#EFDF4B]"></div>
+            <div className="w-3 h-3 rounded-full bg-[#4A5495]"></div>
+            <FaPlus size={8} className="text-black/50" />
           </div>
         </div>
-        <div className="px-8 pt-13">
+        <div className="px-8 pt-8">
+          <h2 className="font-Sf-semibold text-sm text-amber-700">New</h2>
           <h2 className="font-Sf-semibold tracking-wide">
-            Magic Keyboard with Touch ID and Numerice Keypad for mac
+            iPhone 16 Pro Silicone Case with MagSafe - Aquamarine
           </h2>
           <h2 className="mt-3 tracking-wide text-sm">
-            {"MRP ₹19500.00 (Incl. of all taxes)"}
+            {"MRP ₹4900.00 (Incl. of all taxes)"}
           </h2>
         </div>
       </div>
