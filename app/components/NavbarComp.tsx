@@ -4,7 +4,7 @@ import { BsArrowRight, BsBag, BsBoxSeam } from "react-icons/bs";
 import { FaApple } from "react-icons/fa";
 import { HiOutlineMenuAlt4, HiOutlineSearch } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
-import { AnimatePresence, motion, number } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { RiArrowLeftWideFill } from "react-icons/ri";
 import Link from "next/link";
 import { GoSearch } from "react-icons/go";
